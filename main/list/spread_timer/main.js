@@ -348,10 +348,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
             if (cate === "text") {
-              console.log(array[next]["text"])//テキストを…どうしよう
+              // console.log(array[next]["text"])//テキストを…どうしよう
             }
             if (cate === "voice") {
-              console.log(array[next]["text"])//音声を…どうしよう
+              // console.log(array[next]["text"])//音声を…どうしよう
               next_voice = array[next]["text"]//音声はストック
             }
 
