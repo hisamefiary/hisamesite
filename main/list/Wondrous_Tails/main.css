@@ -1,0 +1,38 @@
+#flex_mother {
+  display: flex;
+  flex-wrap: wrap;
+
+  #base {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    input {
+      margin: 0;
+      width: 6vh;
+      height: 6vh;
+    }
+  }
+
+  #result_table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: right;
+
+    th,
+    td {
+      border-top: 1px solid #afafaf;
+      border-bottom: 1px solid #afafaf;
+    }
+
+    #BINGOsum,
+    .tableA {
+      text-align: center;
+    }
+
+  }
+}
+
+
+#result_area {
+  font-weight: bolder;
+}

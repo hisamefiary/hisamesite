@@ -1,0 +1,165 @@
+/* input系 */
+main {
+  #input_area {
+    position: relative;
+
+    #button_area {
+      a#button_start {
+        & {
+          display: inline-block;
+          padding: 0.5rem 1rem;
+
+          border: 2px solid #000;
+          border-radius: 1rem;
+
+          font-size: 2rem;
+          text-align: center;
+          vertical-align: middle;
+          letter-spacing: 0.6em;
+          text-indent: 0.6em;
+
+          cursor: pointer;
+          -webkit-user-select: none;
+          user-select: none;
+          -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+
+        background-color: hsl(180deg 80% 80%);
+
+        &:hover {
+          background-color: hsl(180deg 100% 40%);
+        }
+
+        &.end {
+          background-color: hsl(0deg 80% 80%);
+
+          &:hover {
+            background-color: hsl(0deg 100% 40%);
+          }
+        }
+      }
+
+      #select_area {
+        display: inline-block;
+        vertical-align: middle;
+
+        &,
+        input,
+        select {
+          font-size: 1.1rem;
+        }
+
+        #input_count {
+          width: 5rem;
+        }
+
+        .small_btn {
+
+          width: 2rem;
+        }
+      }
+    }
+
+    #input_count {
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+
+    #input_text {
+      width: 100%;
+      height: min(10rem, 20vh);
+    }
+
+    #input_text:focus {
+      height: min(30rem, 50vh);
+    }
+
+  }
+}
+
+/* タイムラインカラー */
+main[data-theme_timeline="nomal"] {
+  #timelinedetails table {
+    *[data-textid="after"] {
+
+      td.now,
+      td.time,
+      td.text {
+        background-color: rgb(255, 191, 191);
+      }
+    }
+
+    *[data-textid="before"] {
+      display: none;
+    }
+
+    *[data-voiceid="now"] {
+
+      td.voice,
+      td.delay {
+        background-color: rgb(255, 191, 191);
+      }
+    }
+
+
+  }
+}
+
+/* 再生時input非表示 */
+main[data-start="再生"] {
+  #input_area {
+    #input_text {
+      display: none;
+    }
+  }
+
+  #guide {
+    display: none;
+  }
+
+  #timelinetable {
+    .now {
+      display: table-cell;
+    }
+  }
+}
+
+/* タイムラインのフォントサイズ */
+main {
+  #timelinetable {
+    font-size: 2rem;
+
+    .now {
+      display: none;
+    }
+  }
+
+}
+
+#video {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  right: 0;
+}
+
+
+/* ガイド消去用 */
+main {
+  #guide[data-mode="spreadsheets"] {
+    div:not(.spreadsheets) {
+      display: none;
+    }
+  }
+
+  #guide[data-mode="ffxivsupesupe"] {
+    div:not(.ffxivsupesupe) {
+      display: none;
+    }
+  }
+}

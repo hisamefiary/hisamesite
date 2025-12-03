@@ -1,0 +1,35 @@
+body>header,
+body>footer {
+  background-color: rgb(235, 249, 255);
+
+}
+
+body>header {
+  .headerlink {
+    font-size: 2rem;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  .headerlink:hover {
+    background-color: hsl(198, 50%, 50%);
+  }
+}
+
+body>main>div.update_log>dl {
+  dt {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  dd {
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+  }
+}

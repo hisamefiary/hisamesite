@@ -1,0 +1,87 @@
+  details.fia_details {
+    & {
+      border: 1px solid #aaaaaa;
+      border-radius: 4px;
+      padding: 0.5em 0.5em 0;
+    }
+
+    & summary {
+      /* font-weight: bold; */
+      margin: -0.5em -0.5em 0;
+      padding: 0.5em;
+    }
+
+    &[open] {
+      padding: 0.5em;
+    }
+
+    &[open] summary {
+      border-bottom: 1px solid #aaaaaa;
+      margin-bottom: 0.5em;
+    }
+  }
+
+  table.fia_table {
+    border-collapse: collapse;
+
+    th,
+    td {
+      text-align: start;
+      border: #000 1px solid;
+    }
+  }
+
+  /* fade */
+  & {
+    @keyframes fadein {
+      0% {
+        display: none;
+        opacity: 0;
+      }
+
+      1% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: block;
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeout {
+      0% {
+        display: block;
+        opacity: 1;
+      }
+
+      99% {
+        display: block;
+        opacity: 0;
+      }
+
+      100% {
+        display: none;
+        opacity: 0;
+      }
+    }
+
+    .fia_fade {
+      &.none {
+        animation: fadeout 0.5s linear 0s 1 normal forwards;
+      }
+
+      &:not(.none) {
+        animation: fadein 0.5s linear 0s 1 normal forwards;
+      }
+    }
+
+    .fia_fadein {
+      animation: fadein 0.5s linear 0s 1 normal forwards;
+    }
+
+    .fia_fadeout {
+      animation: fadeout 0.5s linear 0s 1 normal forwards;
+    }
+  }

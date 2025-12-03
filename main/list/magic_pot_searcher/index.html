@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF=8">
+  <title>マジックポットサーチャーVer3.2</title>
+  <meta name="description" content="マジックポットの場所計算機" />
+
+  <link rel="icon" href="../../other/icon.png">
+  <link rel="stylesheet" href="../../other/general.css">
+  <script type="text/javascript" src="../../other/general.js"></script>
+
+  <link rel="stylesheet" href="../../other/headerfooter.css">
+  <script type="text/javascript" src="../../other/headerfooter.js"></script>
+
+  <script>window.fia_data = { header: undefined, footer: 'xivtool', }</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let update_log_txt = {
+        bug_list: ["現在ありません",],
+        next_list: ["現在ありません",],
+        update_list: [
+          [["Ver3.2", "(2025/12/03)",], ["システム周りの調整を行いました",],],
+          [["Ver3.1", "(2025/10/07)",], ["マップの切り替えに対応しました", "再読み込み時にアイコンが全て暗転する不具合を修正しました",],],
+          [["Ver3.0", "(2025/08/28)",], ["システム周りを１から組みなおしました", "クリックすることでとても遠く/遠く/近く/とても近く(4/2/0.5)の判定ができます、ポットの円のサイズをとても近くの距離に合わせました",],],
+          [["Ver2.2", "(2025/07/06)",], ["システム周りの調整を行いました", "いくつか追加しました",],],
+          [["Ver2.1", "(2025/06/23)",], ["更新が楽になるようにファイルを統合しました", "ミミックだった不明箱を削除", "いくつか追加しました",],],
+          [["Ver2.0", "(2025/06/22)",], ["githubに移動しました", "それに伴いシステムの調整を行いました",],],
+          [["Ver1.8",], ["Blossom様のマジックポットまとめを参考に不明座標の追記を行いました", "ありがとうございます！",],],
+          [["Ver1.7",], ["確認できた銅箱&銀箱を追記しました、座標判明前の宝箱は白色です", "ポットを追加", "ボタンの数を増やし、各種表示/非表示に対応しました",],],
+          [["Ver1.6",], ["確認できた銅箱&銀箱を追記しました、座標判明前の宝箱は白色です", "ポットの座標を多数追加しました", "不明なポットの座標を袋方式から灰色円に変更しました", "これに伴いマジポ表示切替のボタンを不明宝箱切替に変更しました",],],
+          [["Ver1.5",], ["北ポットを上に並び替えました", "方角より先に矢印が来るようにしました", "矢印のサイズを調整しました", "その他システム周りの調整をしました", "英語ページを作成しました",],],
+          [["Ver1.4",], ["マジックポットの出現位置を追記しました",],],
+          [["Ver1.3",], ["複数種類の箱が出る座標において、一番新しいもの以外消えてしまう不具合を修正しました", "(不明な箱だが、座標が分かっている箱の入力に対応しました→製作者用)",],],
+          [["Ver1.2",], ["マジックポッドの厳格な座標を追記しました", "フレンドさんが提供してくださったSSを参考に作成しました、ありがとうございます！",],],
+          [["Ver1.1",], ["マジックポッドのざっくりとした座標を追記しました", "Ran Yumesaki様のマジックポットまとめと", "フレンドさんが提供してくださったSSを参考に作成しました、ありがとうございます！",],],
+          [["Ver1.0",], ["方角ガイドラインがはみ出る不具合を修正しました", "画像の使用数を減らしました", "方角ガイドラインの色を変更しました", "リセットボタンを追記しました", "方角の選択リストを北から時計回りに並び替えました",],],
+        ],
+      }
+      update_create(update_log_txt)
+    })
+  </script>
+
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="main.js"></script>
+  
+  <script type="text/javascript" src="../../other/canvas.js"></script>
+</head>
+<body>
+  <main>
+    <div id="id_all">
+      <div id="id_canvas_all">
+        <div id="id_canvas_list_pot">
+        </div>
+        <div id="id_canvas_list_treasure">
+        </div>
+        <div id="id_canvas_list_border">
+        </div>
+        <div id="id_canvas_list_fill">
+        </div>
+        <div id="id_canvas_list_circle">
+        </div>
+        <div id="id_img_map_list">
+          <img id="id_map_none">
+        </div>
+      </div>
+      <div id="id_select_mother">
+        <div id="id_select_map">
+          <div>
+            <label for="id_map_select">
+              マップ選択
+            </label>
+            <select id="id_map_select">
+              <option value="The Occult Crescent: South Horn">クレセントアイル：南征編</option>
+            </select>
+          </div>
+        </div>
+        <div id="id_select_other">
+          <button id="id_reset">リセット&マップ読み込み</button>
+          <div>
+            <input type="checkbox" id="id_change_treasure" checked>
+            <label for="id_change_treasure">宝箱表示切替</label>
+          </div>
+          <div>
+            <input type="checkbox" id="id_change_pot" checked>
+            <label for="id_change_pot">マジポ表示切替</label>
+          </div>
+          <div>
+            <input type="checkbox" id="id_change_border" checked>
+            <label for="id_change_border">格子表示切替</label>
+          </div>
+        </div>
+        <div id="id_select_list_aetheryte">
+        </div>
+      </div>
+    </div>
+    <div>
+      使い方は、該当方角を記入するだけです、リセットボタンで選択をリセットできます<br>
+      黄金＝黄色、白銀＝青色、青銅＝緑色、不明(Ran様)＝灰色左下、不明(Blossom様)＝灰色左上となっております<br>
+      各種切り替えを押すと表示が切り替えられます<br>
+      詳細座標は分かり次第追記します<br>
+    </div>
+    <div id="update_log">
+      <ul>
+        <li>
+          <span class="version">確認されている不具合</span><br>
+          <span class="description">
+            現在ありません<br>
+          </span>
+        </li>
+        <li>
+          <span class="version">追加予定の仕様</span><br>
+          <span class="description">
+            現在ありません<br>
+          </span>
+        </li>
+        <li>
+          <span class="version">Ver3.2</span>
+          <span class="date">(2025/12/03)</span><br>
+          <span class="description">
+            システム周りの調整を行いました<br>
+          </span>
+        </li>
+        <details>
+          <summary>過去のアップデート履歴</summary>
+          <li>
+            <span class="version">Ver3.1</span>
+            <span class="date">(2025/10/07)</span><br>
+            <span class="description">
+              マップの切り替えに対応しました<br>
+              再読み込み時にアイコンが全て暗転する不具合を修正しました<br>
+            </span>
+
+          </li>
+          <li>
+            <span class="version">Ver3.0</span>
+            <span class="date">(2025/08/28)</span><br>
+            <span class="description">
+              システム周りを１から組みなおしました<br>
+              クリックすることでとても遠く/遠く/近く/とても近く(4/2/0.5)の判定ができます、ポットの円のサイズをとても近くの距離に合わせました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver2.2</span>
+            <span class="date">(2025/07/06)</span><br>
+            <span class="description">
+              システム周りの調整を行いました<br>
+              いくつか追加しました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver2.1</span>
+            <span class="date">(2025/06/23)</span><br>
+            <span class="description">
+              更新が楽になるようにファイルを統合しました<br>
+              ミミックだった不明箱を削除<br>
+              いくつか追加しました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver2.0</span>
+            <span class="date">(2025/06/22)</span><br>
+            <span class="description">
+              githubに移動しました<br>
+              それに伴いシステムの調整を行いました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.8</span><br>
+            <span class="description">
+              Blossom様のマジックポットまとめを参考に不明座標の追記を行いました<br>
+              ありがとうございます！<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.7</span><br>
+            <span class="description">
+              確認できた銅箱&銀箱を追記しました、座標判明前の宝箱は白色です<br>
+              ポットを追加<br>
+              ボタンの数を増やし、各種表示/非表示に対応しました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.6</span><br>
+            <span class="description">
+              確認できた銅箱&銀箱を追記しました、座標判明前の宝箱は白色です<br>
+              ポットの座標を多数追加しました<br>
+              不明なポットの座標を袋方式から灰色円に変更しました<br>
+              これに伴いマジポ表示切替のボタンを不明宝箱切替に変更しました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.5</span><br>
+            <span class="description">
+              北ポットを上に並び替えました<br>
+              方角より先に矢印が来るようにしました<br>
+              矢印のサイズを調整しました<br>
+              その他システム周りの調整をしました<br>
+              英語に対応しました、こちらからどうぞ<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.4</span><br>
+            <span class="description">
+              マジックポットの出現位置を追記しました<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.3</span><br>
+            <span class="description">
+              複数種類の箱が出る座標において、一番新しいもの以外消えてしまう不具合を修正しました<br>
+              (不明な箱だが、座標が分かっている箱の入力に対応しました→製作者用)<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.2</span><br>
+            <span class="description">
+              マジックポッドの厳格な座標を追記しました<br>
+              フレンドさんが提供してくださったSSを参考に作成しました、ありがとうございます！<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.1</span><br>
+            <span class="description">
+              マジックポッドのざっくりとした座標を追記しました<br>
+              Ran Yumesaki様のマジックポットまとめと<br>
+              フレンドさんが提供してくださったSSを参考に作成しました、ありがとうございます！<br>
+            </span>
+          </li>
+          <li>
+            <span class="version">Ver1.0</span><br>
+            <span class="description">
+              方角ガイドラインがはみ出る不具合を修正しました<br>
+              画像の使用数を減らしました<br>
+              方角ガイドラインの色を変更しました<br>
+              リセットボタンを追記しました<br>
+              方角の選択リストを北から時計回りに並び替えました<br>
+            </span>
+          </li>
+        </details>
+      </ul>
+    </div>
+  </main>
+</body>
+
+</html>
