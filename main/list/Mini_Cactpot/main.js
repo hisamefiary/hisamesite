@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', () => {
         cell_text = cell_text + cell.value
       }
     })
-    console.log(cell_text)
-    console.log(now_check)
+    // console.log(cell_text)
+    // console.log(now_check)
     return [now_check, cell_text]
   }
   function data_export(now_check, cell_text, cell) {
