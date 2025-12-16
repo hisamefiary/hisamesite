@@ -14,6 +14,19 @@
   <script type="text/javascript" src="../../other/headerfooter.js"></script>
 
   <script>window.fia_data = { header: undefined, footer: 'xivtool', }</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let update_log_txt = {
+        // bug_list: ["現在ありません",],
+        // next_list: ["現在ありません",],
+        update_list: [
+          [["", "(2025/12/16)"], ["システム周りの調整を行いました、調整内容の一部をこのページでも記載するように変更しました",],],
+          [["", "(2025/12/03)",], ["システム周りの調整を行いました",],],
+        ],
+      }
+      update_create(update_log_txt)
+    })
+  </script>
 
 
   <style>
