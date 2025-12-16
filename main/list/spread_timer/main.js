@@ -218,7 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // 必須タグを利用して反映しつつvoiceとtextに分離
   function ボイス分離反映(speak_array) {
-    element_clear(timelinetbody)
+    fia_element_clear(timelinetbody)
     let text_array = []
     let voice_array = []
 
@@ -236,13 +236,13 @@ document.addEventListener('DOMContentLoaded', () => {
         voice_array.push(voiceobj)
       }
 
-      let tr = element_create("tr")
+      let tr = fia_element_create("tr")
       tr.dataset.id = index
-      let td0 = element_create("td", undefined, { "class": "now" })
-      let td1 = element_create("td", undefined, { "class": "time" })
-      let td2 = element_create("td", undefined, { "class": "text" })
-      let td3 = element_create("td", undefined, { "class": "voice" })
-      let td4 = element_create("td", undefined, { "class": "delay" })
+      let td0 = fia_element_create("td", undefined, { "class": "now" })
+      let td1 = fia_element_create("td", undefined, { "class": "time" })
+      let td2 = fia_element_create("td", undefined, { "class": "text" })
+      let td3 = fia_element_create("td", undefined, { "class": "voice" })
+      let td4 = fia_element_create("td", undefined, { "class": "delay" })
 
       td0.dataset.timeid = obj["time"]
       td1.append(obj["time"])
@@ -473,7 +473,7 @@ document.addEventListener('DOMContentLoaded', () => {
       voices = speechSynthesis.getVoices();
       voices.forEach((voice) => {
         if (!voice.lang.match('ja-JP')) { return }
-        let option = element_create("option", voice.name, { "value": voice.name })
+        let option = fia_element_create("option", voice.name, { "value": voice.name })
         input_voice.append(option)
       });
       input_voice.value = localStorage.getItem("experttimer_input_voice")
