@@ -294,12 +294,12 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   function mapload(map) {
     // 各種初期化
-    element_clear(id_canvas_list_pot)
-    element_clear(id_canvas_list_treasure)
-    element_clear(id_canvas_list_border)
-    element_clear(id_canvas_list_fill)
-    element_clear(id_canvas_list_circle)
-    element_clear(id_select_list_aetheryte)
+    fia_element_clear(id_canvas_list_pot)
+    fia_element_clear(id_canvas_list_treasure)
+    fia_element_clear(id_canvas_list_border)
+    fia_element_clear(id_canvas_list_fill)
+    fia_element_clear(id_canvas_list_circle)
+    fia_element_clear(id_select_list_aetheryte)
 
     // 読み直し
     checkbox_change()
@@ -320,13 +320,13 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     pottreasure()
     function pottreasure() {
-      const canvas_pot = canvas_create(campus_x, campus_y)
+      const canvas_pot = fia_canvas_create(campus_x, campus_y)
       id_canvas_list_pot.append(canvas_pot)
-      let ctx_pot = canvas_reset(canvas_pot)
+      let ctx_pot = fia_canvas_reset(canvas_pot)
 
-      const canvas_treasure = canvas_create(campus_x, campus_y)
+      const canvas_treasure = fia_canvas_create(campus_x, campus_y)
       id_canvas_list_treasure.append(canvas_treasure)
-      let ctx_treasure = canvas_reset(canvas_treasure)
+      let ctx_treasure = fia_canvas_reset(canvas_treasure)
 
       nowmap["pottreasure"].forEach(element => {
         let pixel_xy = {
@@ -340,10 +340,10 @@ document.addEventListener('DOMContentLoaded', () => {
             let size = 0.5 / map_xy.x * campus_x
             let deg = element["object"]["degree"]
             let color = element["object"]["color"]
-            draw_circle(ctx_pot, [{ x: pixel_xy.x, y: pixel_xy.y }], "fill", size, deg, color)
+            fia_draw_circle(ctx_pot, [{ x: pixel_xy.x, y: pixel_xy.y }], "fill", size, deg, color)
             deg = [0, 360]
             color = "black"
-            draw_circle(ctx_pot, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", size, deg, color, 2)
+            fia_draw_circle(ctx_pot, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", size, deg, color, 2)
             break;
           case "treasure":
             // console.log("treasure")
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     clickload()
     function clickload() {
-      let canvas_circle = canvas_create(campus_x, campus_y)
+      let canvas_circle = fia_canvas_create(campus_x, campus_y)
       id_canvas_list_circle.append(canvas_circle)
       canvas_circle.addEventListener('click', e => {
         // console.log(e)
@@ -381,12 +381,12 @@ document.addEventListener('DOMContentLoaded', () => {
           x: e.offsetX / mapsize_xy.x * campus_x,
           y: e.offsetY / mapsize_xy.y * campus_y,
         }
-        let ctx_circle = canvas_reset(canvas_circle)
+        let ctx_circle = fia_canvas_reset(canvas_circle)
         let degree_list = degree_split(360 / 8 / 2, 8)
         degree_list.forEach(degree => {
-          draw_circle(ctx_circle, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", 4 / map_xy.x * campus_x, [0, 360], "white", 1)
-          draw_circle(ctx_circle, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", 2 / map_xy.x * campus_x, [0, 360], "white", 1)
-          draw_circle(ctx_circle, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", 0.5 / map_xy.x * campus_x, [0, 360], "white", 1)
+          fia_draw_circle(ctx_circle, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", 4 / map_xy.x * campus_x, [0, 360], "white", 1)
+          fia_draw_circle(ctx_circle, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", 2 / map_xy.x * campus_x, [0, 360], "white", 1)
+          fia_draw_circle(ctx_circle, [{ x: pixel_xy.x, y: pixel_xy.y }], "stroke", 0.5 / map_xy.x * campus_x, [0, 360], "white", 1)
         })
       })
     }
@@ -399,20 +399,20 @@ document.addEventListener('DOMContentLoaded', () => {
           y: (element["pos"].y - zero_xy.y) / map_xy.y * campus_y
         }
         // console.log(pixel_xy)
-        let canvas_fill = canvas_create(campus_x, campus_y)
+        let canvas_fill = fia_canvas_create(campus_x, campus_y)
         id_canvas_list_fill.append(canvas_fill)
         canvas_fill.dataset.id = element["name_en"]
 
-        let canvas_border = canvas_create(campus_x, campus_y)
+        let canvas_border = fia_canvas_create(campus_x, campus_y)
         id_canvas_list_border.append(canvas_border)
         canvas_border.dataset.border = element["name_en"]
-        let ctx_border = canvas_reset(canvas_border)
+        let ctx_border = fia_canvas_reset(canvas_border)
 
         let degree_list = degree_split(360 / 8 / 2, 8)
         degree_list.forEach(degree => {
           // console.log(pixel_xy.x)
           let next = border_tan(pixel_xy.x, pixel_xy.y, campus_x, campus_y, degree) //始点サイズと最大キャンパスサイズと角度が指定されたら塗れる
-          draw_line(ctx_border, [{ x: pixel_xy.x, y: pixel_xy.y }, next,], "stroke", "#ff00ff", 2)
+          fia_draw_line(ctx_border, [{ x: pixel_xy.x, y: pixel_xy.y }, next,], "stroke", "#ff00ff", 2)
         })
 
 
@@ -444,19 +444,19 @@ document.addEventListener('DOMContentLoaded', () => {
         select_edit()
         function select_edit() {
           //select作成
-          let div = element_create("div")
+          let div = fia_element_create("div")
           id_select_list_aetheryte.append(div)
 
-          let label = element_create("label")
+          let label = fia_element_create("label")
           div.append(label)
           label.textContent = element["name_" + lang]
           
-          let select = element_create("select")
+          let select = fia_element_create("select")
           label.append(select)
 
           // 一覧オプション作成
           Object.keys(direction_call_fill).forEach(element => {
-            let option = element_create("option")
+            let option = fia_element_create("option")
             select.append(option)
             option.value = direction_call_fill[element]["name_en"]
             option.textContent = direction_call_fill[element]["name_" + lang]
@@ -466,14 +466,14 @@ document.addEventListener('DOMContentLoaded', () => {
           // チェンジしたら一括変更
           select.addEventListener('change', () => {
             let canvas_fill = document.querySelector(`canvas[data-id="${element["name_en"]}"]`)
-            let ctx_fill = canvas_reset(canvas_fill)
+            let ctx_fill = fia_canvas_reset(canvas_fill)
 
             // console.log(direction_call_fill[select.value]["path"])
             let array = [{ x: pixel_xy.x, y: pixel_xy.y }]
             direction_call_fill[select.value]["path"].forEach(path => {
               array.push(directiondata[path])
             })
-            draw_line(ctx_fill, array, "fill", "#black")
+            fia_draw_line(ctx_fill, array, "fill", "#black")
           })
 
         }
@@ -481,9 +481,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   function map_select_load() {
-    element_clear(id_map_select)
+    fia_element_clear(id_map_select)
     Object.keys(mapdata).forEach(element => {
-      let option = element_create("option")
+      let option = fia_element_create("option")
       id_map_select.append(option)
       option.value = element
       option.textContent = mapdata[element]["name_" + lang]
