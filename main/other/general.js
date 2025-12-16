@@ -1,18 +1,29 @@
 'use strict';
-function element_clear(element) {
+/**
+ * 指定要素の子要素を全削除する
+ * @param {element} element 子要素を削除したい親要素
+ */
+function fia_element_clear(element) {
   while (element.firstChild) {
     element.removeChild(element.firstChild);
   }
 }
-function element_create(tag, innerhtml, option) {
+/**
+ * エレメント生成
+ * @param {keyof HTMLElementTagNameMap} tag
+ * @param {string} text 
+ * @param {object} option obj形式でsetAttributeを指定
+ * @returns 
+ */
+function fia_element_create(tag, text, option) {
   let element = document.createElement(tag)
-  if (innerhtml) {
+  if (text) {
     let div1 = document.createElement("div")
     let div2 = document.createElement("div")
-    div1.innerHTML = innerhtml
-    div2.textContent = innerhtml
+    div1.innerHTML = text
+    div2.textContent = text
     if (div1.textContent === div2.textContent) {
-      element.textContent = innerhtml
+      element.textContent = text
     } else {
       if (tag !== "textarea") {
 
@@ -21,9 +32,9 @@ function element_create(tag, innerhtml, option) {
         console.log(div2)
         console.log("予期しないエラー innerHTML")
         alert("予期しないエラー innerHTML")
-        element.innerHTML = innerhtml
+        element.innerHTML = text
       } else {
-        element.textContent = innerhtml
+        element.textContent = text
       }
     }
   }
@@ -34,12 +45,15 @@ function element_create(tag, innerhtml, option) {
   }
   return element
 }
+/**
+ * Iじゃないよ、ここ見ているなら聞いて言って欲しいな
+ */
+function PWPWP() {
+  Math.sqrt(goodbye + goodmorning - sorry / thankyou * goodbye * goodmorning / sorry - thankyou + bigtears * yourhand + myhand) === x
+}
+
 // before その直前
 // prepend 子の先頭
 // append 子の末尾
 // after その直後
-function Equationx() {//いつもの
-  Math.sqrt(goodbye + goodmorning - sorry / thankyou * goodbye * goodmorning / sorry - thankyou + bigtears * yourhand + myhand) === x
-}
-
 // innerHTMLをtextContentに置き換える セキュリティ対策

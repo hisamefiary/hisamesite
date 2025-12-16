@@ -4,8 +4,8 @@
  * @param {number} height
  * @returns {object} canvas
  */
-function canvas_create(canvas_width, canvas_height) {
-  const canvas = element_create("canvas", undefined, { width: canvas_width, height: canvas_height, })
+function fia_canvas_create(canvas_width, canvas_height) {
+  const canvas = fia_element_create("canvas", undefined, { width: canvas_width, height: canvas_height, })
   return canvas
 }
 
@@ -14,7 +14,7 @@ function canvas_create(canvas_width, canvas_height) {
  * @param {object} canvas
  * @returns {object} ctx
  */
-function canvas_reset(canvas) {
+function fia_canvas_reset(canvas) {
   const ctx = canvas.getContext('2d');
   ctx.clearRect(0, 0, canvas.width, canvas.height)
   return ctx
@@ -28,7 +28,7 @@ function canvas_reset(canvas) {
  * @param {string} color Color Codes
  * @param {number} linewidth linewidth(stroke only)
  */
-function draw_line(ctx, xy_array, cate, color, linewidth) {//一般的な線のdraw
+function fia_draw_line(ctx, xy_array, cate, color, linewidth) {//一般的な線のdraw
   ctx.beginPath();
   xy_array.forEach((element, index) => {
     if (index == 0) {
@@ -64,7 +64,7 @@ function draw_line(ctx, xy_array, cate, color, linewidth) {//一般的な線のd
  * @param {string} color Color Codes
  * @param {number} linewidth linewidth(stroke only)
  */
-function draw_circle(ctx, startarray, cate, size, deg, color, linewidth) {//一般的な円のdraw
+function fia_draw_circle(ctx, startarray, cate, size, deg, color, linewidth) {//一般的な円のdraw
   let x = startarray[0].x
   let y = startarray[0].y
   function degtoarc(deg) {
@@ -94,3 +94,21 @@ function draw_circle(ctx, startarray, cate, size, deg, color, linewidth) {//一�
       throw "エラー(drow指定無し、製作者に連絡してください)";
   }
 }
+/**
+ * ctxに画像を投げ込むだけ、await対応済
+ * @param {*} ctx 書くctx
+ * @param {*} image 画像のurl
+ * @param {*} dx 左上のx座標
+ * @param {*} dy 左上のy座標
+ * @param {*} dWidth 幅
+ * @param {*} dHeight 高
+ */
+async function fia_draw_img(ctx, src, dx, dy, dWidth, dHeight) {
+  const image = new Image();
+  image.src = src;
+  await new Promise(resolve => {
+    image.addEventListener('load', resolve, { once: true });
+  });
+  ctx.drawImage(image, dx, dy, dWidth, dHeight)
+}
+
