@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             before_array.push(next_data)
           } else {
-            console.warm("タイム取得エラー", element)
+            console.warn("タイム取得エラー", element)
           }
         } else {
           if (element.replace(/\s/g, "")) {
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         }
       } catch (error) {
-        console.warm("予期しないエラー", element)
+        console.warn("予期しないエラー", element)
       }
     });
 
@@ -518,3 +518,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // #endregion
 });
+
