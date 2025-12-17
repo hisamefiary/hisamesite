@@ -500,8 +500,9 @@ document.addEventListener('DOMContentLoaded', () => {
   // #region 実行系
   実行()
   function 実行() {
-    データ呼出()
-    function デバッグ() { テーマ切替(); テキスト再読込() }; //デバッグ()
+    データ呼出();
+    テーマ切替();
+    テキスト再読込();
     function 単純リロード() { データ保存(); テキスト再読込(); }
     function 単純ボイス() { ボイス調整(); データ保存(); }
     function 単純テーマ() { データ保存(); テーマ切替(); }
@@ -518,5 +519,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // #endregion
 });
+
 
 
