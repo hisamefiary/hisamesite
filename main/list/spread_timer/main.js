@@ -464,6 +464,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   function データ呼出() {
+    localStorage.removeItem("experttimer_" + "input_text")
     汎用array.forEach(ele => {
       if (localStorage.getItem("experttimer_" + ele[0])) {
         ele[1].value = localStorage.getItem("experttimer_" + ele[0])
@@ -519,6 +520,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   // #endregion
 });
+
 
 
 
