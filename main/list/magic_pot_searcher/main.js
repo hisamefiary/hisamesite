@@ -188,6 +188,30 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 24.3, y: 9.9, tag: "treasure", color: "bronze" },
       ]
     },
+    "The Occult Crescent: North Horn": {
+      name_ja: "クレセントアイル：北征編",
+      name_en: "The Occult Crescent: North Horn",
+      mapurl: "img/クレセントアイル：北征編_マップ.png",
+      bronzebox: "img/銅箱.png",
+      silverbox: "img/銀箱.png",
+      otherbox: "img/銅箱_不明.png",
+      aetheryte: [
+        { name_ja: "デジョン先", name_en: "Return point", pos: { x: 10.0, y: 10.0 } },
+        { name_ja: "不明", name_en: "unknown", pos: { x: 29.0, y: 29.0 } },
+      ],
+      offset_0: { x: 1, y: 1 },
+      offset_1: { x: 41.9, y: 41.9 },
+      pottreasure: [
+        { x: 2.0, y: 2.0, tag: "pot", object: { color: "#00ffff", degree: [90, 180], } },
+        { x: 3.0, y: 3.0, tag: "pot", object: { color: "#00ff00", degree: [0, 90], } },
+        { x: 4.0, y: 4.0, tag: "pot", object: { color: "#ffff00", degree: [180, 360], } },
+        { x: 5.0, y: 5.0, tag: "pot", object: { color: "#808080", degree: [180, 270], } },
+        { x: 6.0, y: 6.0, tag: "pot", object: { color: "#808080", degree: [270, 360], } },
+
+        { x: 7.0, y: 7.0, tag: "treasure", color: "bronze" },
+        { x: 8.0, y: 8.0, tag: "treasure", color: "silver" },
+      ]
+    },
   }
   let nowmap
   const silverimage = new Image();
@@ -496,10 +520,11 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   map_select_load()
 
-
+  id_map_select.value = "The Occult Crescent: North Horn"
   mapload(id_map_select.value)//初回実行
   document.getElementById("id_reset").addEventListener('click', () => {
     mapload(id_map_select.value)
+
   })
 });
 
