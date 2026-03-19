@@ -523,7 +523,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   map_select_load()
 
-  id_map_select.value = "The Occult Crescent: North Horn"
   mapload(id_map_select.value)//初回実行
   document.getElementById("id_reset").addEventListener('click', () => {
     mapload(id_map_select.value)
