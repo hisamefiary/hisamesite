@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF=8">
-  <title>マジックポットサーチャーVer3.5</title>
+  <title>マジックポットサーチャーVer4.0</title>
   <meta name="description" content="マジックポットの場所計算機" />
 
   <link rel="icon" href="../../other/icon.png">
@@ -12,6 +12,7 @@
 
   <link rel="stylesheet" href="../../other/headerfooter.css">
   <script type="text/javascript" src="../../other/headerfooter.js"></script>
+  <script type="text/javascript" src="../../other/canvas.js"></script>
 
   <script>window.fia_data = { header: undefined, footer: 'xivtool', }</script>
   <script>
@@ -20,6 +21,7 @@
         bug_list: ["現在ありません",],
         next_list: ["現在ありません",],
         update_list: [
+          [["Ver4.0", "(2026/06/07)"], ["システム周りを１から組みなおしました", "情報提供者のメモを追加しました", "拡大縮小に対応しました", "ポットをクリックした際、反応距離が出るようになりました",],],
           [["Ver3.5", "(2026/03/19)"], ["青銅の箱の色を変更しました", "いくつか追加しました",],],
           [["Ver3.4", "(2026/03/16)"], ["北征編の仮マップを作成しました",],],
           [["Ver3.3", "(2025/12/16)"], ["システム周りの調整を行いました",],],
@@ -44,29 +46,18 @@
     })
   </script>
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
   <link rel="stylesheet" href="main.css">
   <script type="text/javascript" src="main.js"></script>
 
-  <script type="text/javascript" src="../../other/canvas.js"></script>
 </head>
 <body>
   <main>
     <div id="id_all">
-      <div id="id_canvas_all">
-        <div id="id_canvas_list_pot">
-        </div>
-        <div id="id_canvas_list_treasure">
-        </div>
-        <div id="id_canvas_list_border">
-        </div>
-        <div id="id_canvas_list_fill">
-        </div>
-        <div id="id_canvas_list_circle">
-        </div>
-        <div id="id_img_map_list">
-          <img id="id_map_none">
-        </div>
-      </div>
+      <div id="map"></div>
       <div id="id_select_mother">
         <div id="id_select_map">
           <div>
@@ -98,14 +89,31 @@
       </div>
     </div>
     <div>
-      使い方は、該当方角を記入するだけです、リセットボタンで選択をリセットできます<br>
-      マジックポットのアイコンの色は以下のようになっています
-      共通：黄金＝黄色、白銀＝青色、青銅＝緑色<br>
-      北征：不明(Ran様)＝灰色左下、不明(Blossom様)＝灰色左上<br>
-      南征：情報提供者様募集中<br>
-      となっております<br>
-      各種切り替えを押すと表示が切り替えられます<br>
-      詳細座標は分かり次第追記します<br>
+      <dl class="fia_dl">
+        <dt>使い方</dt>
+        <dd>
+          該当の場所でエリクサーを使い、出た方角を記入するとざっくりわかります<br>
+          右クリックを押すとマジックポットの反応距離が出ます<br>
+          リセットボタンで選択をリセットできます<br>
+          マジックポットを左クリックでも反応距離が出ます<br>
+          各種切り替えを押すと表示が切り替えられます<br>
+        </dd>
+        <dt>アイコン</dt>
+        <dd>
+          マジックポットのアイコンの色は以下のようになっています<br>
+          共通：黄金＝黄色、白銀＝青色、青銅＝緑色<br>
+          クリックすると情報提供者がわかります<br>
+        </dd>
+        <dt>情報提供</dt>
+        <dd>
+          北征・南征どちらも募集しています<br>
+          ・キャラが宝箱の近くor密着の状態<br>
+          ・ミニマップの座標が映っている<br>
+          ・宝箱をターゲットor宝箱の名称が見えている<br>
+          以上を満たすスクリーンショットを、<a href="">このツイート</a>へのリプライで投稿で受け付けます！<br>
+          <img src="img/ffxiv_20250825_210903_861.png" style="max-width:100vw ;max-height:25vh">
+        </dd>
+      </dl>
     </div>
   </main>
 </body>

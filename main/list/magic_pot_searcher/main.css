@@ -1,51 +1,40 @@
 #id_all {
   height: calc(min(100vw - 300px, 100vh - 100px));
 
+  &.hidden_pot .icon.pot {
+    display: none;
+  }
 
+  &.hidden_treasure .icon.treasure {
+    display: none;
+  }
 
-  #id_canvas_all {
-    position: relative;
+  &.hidden_border canvas[data-border],
+  &.hidden_border canvas[data-fill] {
+    display: none;
+  }
 
-    canvas,
-    img {
-      position: absolute;
-      width: calc(min(100vw - 300px, 100vh - 100px));
+  #map {
+    position: absolute;
+    width: min(100vw - 300px, 100vh - 100px);
+    height: min(100vw - 300px, 100vh - 100px);
+
+    canvas[data-border],
+    canvas[data-fill] {
+      pointer-events: none;
     }
 
-    .break {
-      display: none;
-    }
-  }
-
-  #id_img_map_list {
-    z-index: 1;
-  }
-
-  #id_canvas_list_fill canvas {
-    z-index: 2;
-    opacity: 0.4;
-  }
-
-  #id_canvas_list_border canvas {
-    z-index: 3;
-    opacity: 0.4;
-  }
-
-  #id_canvas_list_treasure canvas {
-    z-index: 4;
-  }
-
-  #id_canvas_list_pot canvas {
-    z-index: 5;
-  }
-
-  #id_canvas_list_circle canvas {
-    z-index: 7;
   }
 
   #id_select_mother {
     position: relative;
-    z-index: 6;
+    z-index: 1001;
+
+    pointer-events: none;
+
+    *:not(div) {
+      pointer-events: auto;
+    }
 
     div {
       text-align: end;
@@ -63,7 +52,11 @@
     #id_select_other {
       padding-top: 1vw;
 
-      select,
+      button {
+        font-size: 1rem;
+        line-height: 2;
+      }
+
       label {
         font-size: 1.5rem;
       }
@@ -73,10 +66,6 @@
         height: 1.5rem;
       }
 
-      button {
-        font-size: 1rem;
-        line-height: 2;
-      }
     }
 
     #id_select_list_aetheryte {
