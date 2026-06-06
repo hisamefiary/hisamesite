@@ -33,7 +33,7 @@ function footer_create(type) {
   p2.append("当サイトは特に注釈が無い場合、PC版chromeを960×1080)", fia_element_create("br"), "つまり通常のディスプレイの半分で開いた状態で使うことを想定して作られています")
 
   let p4 = fia_element_create("p")
-  p4.append("使いやすさだけを追い求めているためほぼ無機質です", fia_element_create("br"), "利便性改善のための装飾はいつか作るかもしれません")
+  p4.append("使いやすさだけを追い求めているためほぼ無機質です", fia_element_create("br"), "そのうち装飾作るかも")
 
   let p6 = fia_element_create("p", "© Hisame Fiary", { id: "copyright" })
 

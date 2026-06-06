@@ -85,3 +85,37 @@
       animation: fadeout 0.5s linear 0s 1 normal forwards;
     }
   }
+
+  /* dlリスト */
+  dl.fia_dl {
+    padding: 10px;
+    background-color: hsl(0, 0%, 99%);
+    border: 1px solid hsl(0, 0%, 88%);
+    border-radius: 6px;
+
+    /* タイトル（使い方、困った時は） */
+    dt {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: hsl(0, 0%, 20%);
+      margin-top: 10px;
+      margin-bottom: 5px;
+      border-bottom: 2px solid hsl(190, 100%, 50%);
+      /* 下に青い線を引く */
+      padding-bottom: 4px;
+    }
+
+    /* 最初のdtだけ上の余白を消す */
+    dt:first-of-type {
+      margin-top: 0;
+    }
+
+    /* 説明文（使い方A、Bなど） */
+    dd {
+      margin-left: 0;
+      color: hsl(0, 0%, 33%);
+      line-height: 1.6;
+      padding-left: 8px;
+      /* 少し右に寄せて見出しと区別 */
+    }
+  }

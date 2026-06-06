@@ -51,6 +51,51 @@ function fia_element_create(tag, text, option) {
 function PWPWP() {
   Math.sqrt(goodbye + goodmorning - sorry / thankyou * goodbye * goodmorning / sorry - thankyou + bigtears * yourhand + myhand) === x
 }
+/**
+ * その言語にあったエスケープを行う
+ * @param {*} string 
+ * @param {*} lang 
+ * @returns 
+ */
+function fia_escape(string, lang) {
+  switch (lang) {
+    case "toreg":
+      string = string.replace(/\//g, '\\/')
+      string = string.replace(/\*/g, '\\*')
+      string = string.replace(/\+/g, '\\+')
+      string = string.replace(/\./g, '\\.')
+      string = string.replace(/\?/g, '\\?')
+      string = string.replace(/\{/g, '\\{')
+      string = string.replace(/\}/g, '\\}')
+      string = string.replace(/\[/g, '\\[')
+      string = string.replace(/\]/g, '\\]')
+      string = string.replace(/\^/g, '\\^')
+      string = string.replace(/\$/g, '\\$')
+      string = string.replace(/\-/g, '\\-')
+      string = string.replace(/\|/g, '\\|')
+      break;
+    case "tohtml":
+      string = string.replace(/&/g, '&amp;')//先に
+      string = string.replace(/</g, '&lt;')
+      string = string.replace(/>/g, '&gt;')
+      string = string.replace(/"/g, '&quot;')
+      string = string.replace(/'/g, '&apos;')
+      string = string.replace(/ /g, ' ')//やむなし
+      break;
+    case "fromhtml":
+      string = string.replace(/&lt;/g, "<")
+      string = string.replace(/&gt;/g, ">")
+      string = string.replace(/&quot;/g, '"')
+      string = string.replace(/&apos;/g, "'")
+      string = string.replace(/&amp;/g, "&")//後に
+      // string = string.replace(/ /g, " ")//とんでもない
+      break;
+    default:
+      console.warn("指定なし")
+      break;
+  }
+  return string
+}
 
 // before その直前
 // prepend 子の先頭
