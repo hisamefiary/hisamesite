@@ -233,6 +233,14 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 3.3, y: 24.4, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 3.0, y: 25.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 21, y: 34, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 8.5, y: 40.8, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 9.7, y: 33.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 9.8, y: 16.3, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 38.7, y: 4, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 21.4, y: 5.2, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 5.9, y: 29, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+
+
 
       ]
     },
