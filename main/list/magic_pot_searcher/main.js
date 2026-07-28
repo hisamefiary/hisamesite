@@ -239,6 +239,20 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 38.7, y: 4, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 21.4, y: 5.2, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
         { x: 5.9, y: 29, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 34.1, y: 3.1, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 29.1, y: 17.9, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 8.3, y: 18.3, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 36.6, y: 31.6, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 35.8, y: 26.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 16.8, y: 7, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 9.4, y: 21.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 5, y: 7.5, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 27, y: 14.3, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 27.1, y: 25.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 20.9, y: 12.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 11.4, y: 36.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+
 
 
 
