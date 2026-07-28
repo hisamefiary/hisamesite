@@ -281,11 +281,10 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 38.8, y: 3.9, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 40.2, y: 3.5, tag: "search", name_ja: "", name_en: "", },
         { x: 7.5, y: 10.1, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
-
-
-
-
-
+        { x: 29.1, y: 17.9, tag: "treasure_silver", name_ja: "フレンド", name_en: "", },
+        { x: 36.6, y: 31.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 7.5, y: 10.1, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 12.7, y: 24.8, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
 
 
 
@@ -330,6 +329,14 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 24.7, y: 21.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 25.9, y: 20.8, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
         { x: 27.7, y: 25.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 27.7, y: 26.3, tag: "search", name_ja: "hisame", name_en: "", },
+
+
+
+
+
+
+
 
 
 
