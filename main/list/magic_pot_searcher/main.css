@@ -1,3 +1,7 @@
+.leaflet-control-container {
+  display: none;
+}
+
 #id_all {
   height: calc(min(100vw - 300px, 100vh - 100px));
 
@@ -6,6 +10,14 @@
   }
 
   &.hidden_treasure .icon.treasure {
+    display: none;
+  }
+
+  &.hidden_search .icon.search {
+    display: none;
+  }
+
+  &.hidden_carrot .icon.carrot {
     display: none;
   }
 

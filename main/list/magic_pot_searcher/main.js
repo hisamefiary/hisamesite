@@ -203,28 +203,27 @@ document.addEventListener('DOMContentLoaded', () => {
         y_size: 40.9,
       },
       potdata: [
-{x:26.4,y:35.0,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:21.2,y:36.9,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-
-
-
-{x:24.5,y:4.6,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
-{x:12.6,y:10.3,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:10.9,y:5.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:6.7,y:3.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:5.2,y:3.8,tag:"pot_gold",name_ja:"hisame",name_en:"",},
-
-
-{x:16.1,y:12.6,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-
-{x:34.4,y:18.3,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-
-
-
-{x:34.6,y:10.4,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:13.1,y:2.5,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:15.9,y:32.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:16.3,y:37.6,tag:"treasure_bronze",name_ja:"フレンド",name_en:"",},
+        { x: 26.4, y: 35.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 7.4, y: 14.0, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 10.9, y: 38.8, tag: "search", name_ja: "シャウト", name_en: "", },
+        { x: 24.5, y: 4.6, tag: "pot_bronze", name_ja: "hisame", name_en: "", },
+        { x: 12.6, y: 10.3, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 10.9, y: 5.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 6.7, y: 3.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 5.2, y: 3.8, tag: "pot_gold", name_ja: "hisame", name_en: "", },
+        { x: 3.9, y: 3.4, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 21.3, y: 19.7, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 16.1, y: 12.6, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 39.8, y: 22.6, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 34.4, y: 18.3, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 7.4, y: 13.9, tag: "search", name_ja: "シャウト", name_en: "", },
+        { x: 17.5, y: 5.2, tag: "search", name_ja: "シャウト", name_en: "", },
+        { x: 39.8, y: 22.6, tag: "search", name_ja: "シャウト", name_en: "", },
+        { x: 34.6, y: 10.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 13.1, y: 2.5, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 15.9, y: 32.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 16.3, y: 37.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
       ]
     },
   }
@@ -287,6 +286,14 @@ document.addEventListener('DOMContentLoaded', () => {
   id_change_border.addEventListener('click', () => {
     checkbox_change()
   })
+  const id_change_carrot = document.querySelector("#id_change_carrot")
+  id_change_carrot.addEventListener('click', () => {
+    checkbox_change()
+  })
+  const id_change_search = document.querySelector("#id_change_search")
+  id_change_search.addEventListener('click', () => {
+    checkbox_change()
+  })
   function checkbox_change() {
     const id_all = document.querySelector("#id_all")
     if (id_change_pot.checked) {
@@ -303,6 +310,16 @@ document.addEventListener('DOMContentLoaded', () => {
       id_all.classList.remove("hidden_border")
     } else {
       id_all.classList.add("hidden_border")
+    }
+    if (id_change_carrot.checked) {
+      id_all.classList.remove("hidden_carrot")
+    } else {
+      id_all.classList.add("hidden_carrot")
+    }
+    if (id_change_search.checked) {
+      id_all.classList.remove("hidden_search")
+    } else {
+      id_all.classList.add("hidden_search")
     }
   }
   checkbox_change()
@@ -407,6 +424,12 @@ document.addEventListener('DOMContentLoaded', () => {
     leaflet_map.createPane('Pane_treasure');
     leaflet_map.getPane('Pane_treasure').style.zIndex = 602;
 
+    leaflet_map.createPane('Pane_carrot');
+    leaflet_map.getPane('Pane_carrot').style.zIndex = 603;
+
+    leaflet_map.createPane('Pane_search');
+    leaflet_map.getPane('Pane_search').style.zIndex = 604;
+
 
     L.imageOverlay(mapimg.src, bounds).addTo(leaflet_map);//張る
 
@@ -462,8 +485,8 @@ document.addEventListener('DOMContentLoaded', () => {
         pot_otherbottom: [createPotIcon('灰下.png', 'pot otherbottom'), 'pot'],
         treasure_bronze: [createPotIcon('銅箱.png', 'treasure bronze'), 'treasure'],
         treasure_silver: [createPotIcon('銀箱.png', 'treasure silver'), 'treasure'],
-        carrot: [createPotIcon('銀箱.png', 'other carrot'), 'other'],
-        search: [createPotIcon('銀箱.png', 'other carrot'), 'other'],
+        carrot: [createPotIcon('carrot.png', 'carrot'), 'carrot'],
+        search: [createPotIcon('search.png', 'search'), 'search'],
       };
       let potarray = []
       mapnow["potdata"].forEach(element => {
