@@ -251,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 27, y: 14.3, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 20.9, y: 12.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
         { x: 11.4, y: 36.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
-
+        { x: 12.7, y: 24.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
 
 
 
