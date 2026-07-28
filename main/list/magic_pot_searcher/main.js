@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name_ja: "腐敗した市街地前", name_en: "unknown4", pos: { x: 13.7, y: 12.7 } },
         { name_ja: "妖火の漁村", name_en: "unknown5", pos: { x: 21.1, y: 20.6 } },
         { name_ja: "北ポット", name_en: "North magic pots", pos: { x: 26.1, y: 11.8 } },
-        // { name_ja: "南ポット", name_en: "South magic pots", pos: { x: 11.8, y: 31.8 } },
+        { name_ja: "南ポット", name_en: "South magic pots", pos: { x: 11.2, y: 26.3 } },
       ],
       mapimg: {
         x: 4096,
@@ -203,7 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
         y_size: 40.9,
       },
       potdata: [
-        { x: 26.4, y: 35.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 7.4, y: 14.0, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 10.9, y: 38.8, tag: "search", name_ja: "シャウト", name_en: "", },
         { x: 24.5, y: 4.6, tag: "pot_bronze", name_ja: "hisame", name_en: "", },
@@ -212,17 +211,12 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 6.7, y: 3.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 5.2, y: 3.8, tag: "pot_gold", name_ja: "hisame", name_en: "", },
         { x: 3.9, y: 3.4, tag: "search", name_ja: "hisame", name_en: "", },
-        { x: 21.3, y: 19.7, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 16.1, y: 12.6, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 39.8, y: 22.6, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 34.4, y: 18.3, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-        { x: 7.4, y: 13.9, tag: "search", name_ja: "シャウト", name_en: "", },
         { x: 17.5, y: 5.2, tag: "search", name_ja: "シャウト", name_en: "", },
-        { x: 39.8, y: 22.6, tag: "search", name_ja: "シャウト", name_en: "", },
         { x: 34.6, y: 10.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 13.1, y: 2.5, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-        { x: 15.9, y: 32.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-        { x: 16.3, y: 37.6, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
         { x: 29.2, y: 6.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
 
         { x: 22.3, y: 19.3, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
@@ -231,8 +225,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 18.1, y: 18.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 3.3, y: 24.4, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 3.0, y: 25.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-        { x: 21, y: 34, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
-        { x: 8.5, y: 40.8, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
         { x: 9.7, y: 33.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 9.8, y: 16.3, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 38.7, y: 4, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
@@ -241,7 +233,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 34.1, y: 3.1, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 29.1, y: 17.9, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
         { x: 8.3, y: 18.3, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
-        { x: 36.6, y: 31.6, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 35.8, y: 26.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 16.8, y: 7, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
@@ -256,9 +247,43 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 24.4, y: 3.9, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
         { x: 9.2, y: 33, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
         { x: 40.4, y: 10.1, tag: "pot_silver", name_ja: "フレンド", name_en: "", },
-        { x: 9.8, y: 27.3, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 9.8, y: 37.3, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
+
+        { x: 36.6, y: 31.6, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 21.7, y: 37.4, tag: "pot_gold", name_ja: "hisame", name_en: "", },
+        { x: 26.4, y: 35.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 9.5, y: 15.7, tag: "pot_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 10.2, y: 12.5, tag: "carrot", name_ja: "フレンド", name_en: "", },
+        { x: 21, y: 34, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
+        { x: 15.9, y: 32.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 8.5, y: 40.8, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
+        { x: 4.6, y: 36.3, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 9.6, y: 36.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 39.0, y: 38.0, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 4.5, y: 36.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 30.4, y: 23.5, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 4.3, y: 9.4, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 22.9, y: 40.3, tag: "pot_silver", name_ja: "フレンド", name_en: "", },
+        { x: 14.6, y: 38.7, tag: "pot_gold", name_ja: "フレンド", name_en: "", },
+        { x: 7.5, y: 40, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 24.4, y: 4, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 21.4, y: 5.2, tag: "treasure_silver", name_ja: "フレンド", name_en: "", },
+        { x: 5.1, y: 10.2, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 30.2, y: 2.9, tag: "pot_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 40, y: 15.9, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 16.5, y: 6.6, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 4.3, y: 36.9, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 38.5, y: 14.5, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
+        { x: 12.3, y: 14.1, tag: "pot_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 16.3, y: 37.7, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 11.3, y: 36.6, tag: "pot_bronze", name_ja: "hisame", name_en: "", },
+        { x: 5.4, y: 34.1, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+
+
+
+
+
 
 
 
@@ -278,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { name_ja: "腐敗した市街地前", name_en: "unknown4", pos: { x: 13.7, y: 12.7 } },
         { name_ja: "妖火の漁村", name_en: "unknown5", pos: { x: 21.1, y: 20.6 } },
         { name_ja: "北ポット", name_en: "North magic pots", pos: { x: 26.1, y: 11.8 } },
-        // { name_ja: "南ポット", name_en: "South magic pots", pos: { x: 11.8, y: 31.8 } },
+        { name_ja: "南ポット", name_en: "South magic pots", pos: { x: 11.2, y: 26.3 } },
       ],
       mapimg: {
         x: 4096,
@@ -295,8 +320,6 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       potdata: [
         { x: 18.5, y: 27.4, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
-        { x: 22.3, y: 24.7, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
-        { x: 24.7, y: 21.8, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
         { x: 27.1, y: 25.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 22.3, y: 24.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 27.2, y: 25.3, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
@@ -306,6 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 24.7, y: 21.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 25.9, y: 20.8, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
         { x: 27.7, y: 25.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+
 
 
 
