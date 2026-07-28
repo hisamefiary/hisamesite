@@ -205,13 +205,25 @@ document.addEventListener('DOMContentLoaded', () => {
       potdata: [
         { x: 26.4, y: 35.0, tag: "treasure_bronze", name_ja: "", name_en: "", },
         { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "", name_en: "", },
+
+
+
         { x: 24.5, y: 4.6, tag: "pot_bronze", name_ja: "", name_en: "", },
         { x: 12.6, y: 10.3, tag: "treasure_bronze", name_ja: "", name_en: "", },
         { x: 10.9, y: 5.8, tag: "treasure_bronze", name_ja: "", name_en: "", },
         { x: 6.7, y: 3.8, tag: "treasure_bronze", name_ja: "", name_en: "", },
         { x: 5.2, y: 3.8, tag: "pot_gold", name_ja: "", name_en: "", },
+
+
         { x: 16.1, y: 12.6, tag: "treasure_bronze", name_ja: "", name_en: "", },
+
         { x: 34.4, y: 18.3, tag: "treasure_bronze", name_ja: "", name_en: "", },
+
+
+
+        { x: 34.6, y: 10.4, tag: "treasure_bronze", name_ja: "", name_en: "", },
+
+
       ]
     },
   }
