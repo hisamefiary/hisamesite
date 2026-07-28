@@ -180,8 +180,12 @@ document.addEventListener('DOMContentLoaded', () => {
       name_ja: "クレセントアイル：北征編",
       name_en: "The Occult Crescent: North Horn",
       aetheryte: [
-        { name_ja: "デジョン先", name_en: "Return point", pos: { x: 10.0, y: 10.0 } },
-        { name_ja: "不明", name_en: "unknown", pos: { x: 29.0, y: 29.0 } },
+        { name_ja: "デジョン先", name_en: "Return point", pos: { x: 39.6, y: 39.6 } },
+        { name_ja: "カルナック", name_en: "unknown1", pos: { x: 30.5, y: 32.0 } },
+        { name_ja: "沈んだ聖堂前", name_en: "unknown2", pos: { x: 28.6, y: 10.3 } },
+        { name_ja: "浮遊遺跡", name_en: "unknown3", pos: { x: 10.5, y: 33.4 } },
+        { name_ja: "腐敗した市街地前", name_en: "unknown4", pos: { x: 13.7, y: 12.7 } },
+        { name_ja: "妖火の漁村", name_en: "unknown5", pos: { x: 21.1, y: 20.6 } },
       ],
       mapimg: {
         x: 4096,
@@ -197,17 +201,13 @@ document.addEventListener('DOMContentLoaded', () => {
         y_size: 40.9,
       },
       potdata: [
-        { x: 2.0, y: 2.0, tag: "treasure_bronze" },
-        { x: 3.0, y: 3.0, tag: "treasure_silver" },
-        { x: 4.0, y: 4.0, tag: "pot_othertop" },
-        { x: 5.0, y: 5.0, tag: "pot_otherbottom" },
-        { x: 6.0, y: 6.0, tag: "pot_bronze" },
-        { x: 7.0, y: 7.0, tag: "pot_silver" },
-        { x: 8.0, y: 8.0, tag: "pot_gold" },
-        { x: 9.0, y: 9.0, tag: "pot_goldbronze" },
-        { x: 10.0, y: 10.0, tag: "pot_silverbronze" },
-        { x: 11.0, y: 11.0, tag: "pot_goldsilver" },
-        { x: 12.0, y: 12.0, tag: "pot_goldsilverbronze" },
+        { x: 26.4, y: 35.0, tag: "treasure_bronze", name_ja: "", name_en: "", },
+        { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "", name_en: "", },
+        { x: 24.5, y: 4.6, tag: "pot_bronze", name_ja: "", name_en: "", },
+        { x: 12.6, y: 10.3, tag: "treasure_bronze", name_ja: "", name_en: "", },
+        { x: 10.9, y: 5.8, tag: "treasure_bronze", name_ja: "", name_en: "", },
+        { x: 6.7, y: 3.8, tag: "treasure_bronze", name_ja: "", name_en: "", },
+        { x: 5.2, y: 3.8, tag: "pot_gold", name_ja: "", name_en: "", },
       ]
     },
   }
@@ -612,11 +612,13 @@ document.addEventListener('DOMContentLoaded', () => {
       option.value = element
       option.textContent = mapdata[element]["name_" + lang]
     })
+
     id_map_select.addEventListener("change", () => {
       mapload(id_map_select.value)
     })
   }
   map_select_load()
+  id_map_select.value = "The Occult Crescent: North Horn"
   mapload(id_map_select.value)//初回実行
   document.getElementById("id_reset").addEventListener('click', () => {
     mapload(id_map_select.value)
