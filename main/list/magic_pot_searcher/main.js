@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 18.1, y: 18.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 3.3, y: 24.4, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 3.0, y: 25.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-
+        { x: FALSE, y: FALSE, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
 
       ]
     },
