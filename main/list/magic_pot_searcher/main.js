@@ -229,6 +229,11 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 22.3, y: 19.3, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 21.3, y: 19.7, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 18.2, y: 23.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 18.1, y: 18.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 3.3, y: 24.4, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 3.0, y: 25.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+
+
       ]
     },
   }
