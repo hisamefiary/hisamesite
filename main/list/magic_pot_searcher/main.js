@@ -186,6 +186,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { name_ja: "浮遊遺跡", name_en: "unknown3", pos: { x: 10.5, y: 33.4 } },
         { name_ja: "腐敗した市街地前", name_en: "unknown4", pos: { x: 13.7, y: 12.7 } },
         { name_ja: "妖火の漁村", name_en: "unknown5", pos: { x: 21.1, y: 20.6 } },
+        { name_ja: "北ポット", name_en: "North magic pots", pos: { x: 26.1, y: 11.8 } },
+        // { name_ja: "南ポット", name_en: "South magic pots", pos: { x: 11.8, y: 31.8 } },
       ],
       mapimg: {
         x: 4096,
