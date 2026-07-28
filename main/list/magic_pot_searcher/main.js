@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
         y_size: 40.9,
       },
       potdata: [
-        { x: 7.4, y: 14.0, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 7.4, y: 14, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 10.9, y: 38.8, tag: "search", name_ja: "シャウト", name_en: "", },
         { x: 24.5, y: 4.6, tag: "pot_bronze", name_ja: "hisame", name_en: "", },
         { x: 12.6, y: 10.3, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
@@ -224,10 +224,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 18.2, y: 23.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 18.1, y: 18.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 3.3, y: 24.4, tag: "search", name_ja: "hisame", name_en: "", },
-        { x: 3.0, y: 25.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 3, y: 25.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 9.7, y: 33.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 9.8, y: 16.3, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
-        { x: 38.7, y: 4, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 21.4, y: 5.2, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
         { x: 5.9, y: 29, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 34.1, y: 3.1, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
@@ -252,7 +251,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 36.6, y: 31.6, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 21.2, y: 36.9, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 21.7, y: 37.4, tag: "pot_gold", name_ja: "hisame", name_en: "", },
-        { x: 26.4, y: 35.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 26.4, y: 35, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 9.5, y: 15.7, tag: "pot_bronze", name_ja: "フレンド", name_en: "", },
         { x: 10.2, y: 12.5, tag: "carrot", name_ja: "フレンド", name_en: "", },
         { x: 21, y: 34, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
@@ -260,7 +259,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 8.5, y: 40.8, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
         { x: 4.6, y: 36.3, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 9.6, y: 36.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-        { x: 39.0, y: 38.0, tag: "search", name_ja: "hisame", name_en: "", },
+        { x: 39, y: 38, tag: "search", name_ja: "hisame", name_en: "", },
         { x: 4.5, y: 36.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 30.4, y: 23.5, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 4.3, y: 9.4, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
@@ -279,7 +278,9 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 16.3, y: 37.7, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 11.3, y: 36.6, tag: "pot_bronze", name_ja: "hisame", name_en: "", },
         { x: 5.4, y: 34.1, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-
+        { x: 38.8, y: 3.9, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 40.2, y: 3.5, tag: "search", name_ja: "", name_en: "", },
+        { x: 7.5, y: 10.1, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
 
 
 
