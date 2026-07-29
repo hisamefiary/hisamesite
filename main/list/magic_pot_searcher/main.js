@@ -300,6 +300,38 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 24.7, y: 21.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 25.9, y: 20.8, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
         { x: 27.7, y: 25.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
+        { x: 21.4, y: 5.1, tag: "treasure_silver", name_ja: "フレンド", name_en: "", },
+        { x: 18.2, y: 20, tag: "pot_silver", name_ja: "フレンド", name_en: "", },
+        { x: 9.8, y: 16.3, tag: "treasure_bronze", name_ja: "フレンド", name_en: "", },
+        { x: 3.2, y: 6.5, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 3.2, y: 6.5, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 4.1, y: 15.1, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 7.4, y: 13.1, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 16.5, y: 16.2, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 7.7, y: 25.9, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 8.7, y: 25.9, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 23.2, y: 15.7, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 35.0, y: 14.3, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 40.3, y: 14.0, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 37.9, y: 8.5, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 34.2, y: 7.8, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 26.8, y: 9.4, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 40.7, y: 3.7, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 30.6, y: 31.5, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 23.1, y: 32.1, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 26.4, y: 39.8, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 35.7, y: 40.8, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 35.5, y: 36.4, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 37.9, y: 35.0, tag: "treasure_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 11.2, y: 3.8, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 20.2, y: 4.5, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 23.9, y: 10.1, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 4.7, y: 3.7, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 40.3, y: 4.3, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 21.7, y: 21.0, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 16.0, y: 22.5, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+        { x: 2.4, y: 35.4, tag: "carrot_unknown", name_ja: "詳細座標募集中！", name_en: "", },
+
 
 
 
@@ -565,7 +597,9 @@ document.addEventListener('DOMContentLoaded', () => {
         pot_otherbottom: [createPotIcon('灰下.png', 'pot otherbottom'), 'pot'],
         treasure_bronze: [createPotIcon('銅箱.png', 'treasure bronze'), 'treasure'],
         treasure_silver: [createPotIcon('銀箱.png', 'treasure silver'), 'treasure'],
+        treasure_unknown: [createPotIcon('銅箱_不明.png', 'treasure unknown'), 'treasure'],
         carrot: [createPotIcon('carrot.png', 'carrot'), 'carrot'],
+        carrot_unknown: [createPotIcon('carrot_不明.png', 'carrot unknown'), 'carrot'],
         search: [createPotIcon('search.png', 'search'), 'search'],
       };
       let potarray = []
@@ -573,7 +607,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let obj = pos_load(element)
         let tag = element["tag"]
         let mk = L.marker([obj.y, obj.x], { icon: Icon[tag][0], pane: "Pane_" + Icon[tag][1] }).addTo(leaflet_map)
-          .bindPopup(informant + ": " + element["name_" + lang], { className: 'custom_popup_text' })
+          .bindPopup(element["name_" + lang] + "<br>" + "x:" + element.x + " y;" + element.y, { className: 'custom_popup_text' })
         if (Icon[tag][1] === "pot") {
           potarray.push(mk)
         }
