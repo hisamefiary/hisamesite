@@ -276,7 +276,7 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:11.3,y:36.6,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
 {x:5.4,y:34.1,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:38.8,y:3.9,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
-{x:40.2,y:3.5,tag:"search",name_ja:"",name_en:"",},
+{x:40.2,y:3.5,tag:"search",name_ja:"hisame",name_en:"",},
 {x:29.1,y:17.9,tag:"treasure_silver",name_ja:"フレンド",name_en:"",},
 {x:12.7,y:24.8,tag:"treasure_bronze",name_ja:"フレンド",name_en:"",},
 
@@ -316,15 +316,15 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:21.7,y:21,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:16,y:22.5,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:2.4,y:35.4,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:35,y:40.6,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:23,y:32.2,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:23.1,y:15.8,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:40.4,y:14.2,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:7.5,y:10.1,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:3.9,y:15.2,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:4.3,y:29.1,tag:"carrot",name_ja:"",name_en:"",},
-{x:39.1,y:23.7,tag:"carrot",name_ja:"",name_en:"",},
-{x:21.6,y:20.7,tag:"carrot",name_ja:"",name_en:"",},
+{x:35,y:40.6,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:23,y:32.2,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:23.1,y:15.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:40.4,y:14.2,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:7.5,y:10.1,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:3.9,y:15.2,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:4.3,y:29.1,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
+{x:39.1,y:23.7,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
+{x:21.6,y:20.7,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
 
 
 
