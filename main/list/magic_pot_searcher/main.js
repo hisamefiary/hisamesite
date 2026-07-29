@@ -290,38 +290,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 31.0, y: 17.4, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 4.4, y: 25.3, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
         { x: 9.3, y: 40.2, tag: "carrot", name_ja: "Twitter(現X)", name_en: "", },
-
-
-
-      ]
-    },
-    "The Occult Crescent: North Horn_underground": {
-      name_ja: "クレセントアイル：北征編_地下",
-      name_en: "The Occult Crescent: North Horn_underground",
-      aetheryte: [
-        { name_ja: "デジョン先", name_en: "Return point", pos: { x: 39.6, y: 39.6 } },
-        { name_ja: "カルナック", name_en: "unknown1", pos: { x: 30.5, y: 32.0 } },
-        { name_ja: "沈んだ聖堂前", name_en: "unknown2", pos: { x: 28.6, y: 10.3 } },
-        { name_ja: "浮遊遺跡", name_en: "unknown3", pos: { x: 10.5, y: 33.4 } },
-        { name_ja: "腐敗した市街地前", name_en: "unknown4", pos: { x: 13.7, y: 12.7 } },
-        { name_ja: "妖火の漁村", name_en: "unknown5", pos: { x: 21.1, y: 20.6 } },
-        { name_ja: "北ポット", name_en: "North magic pots", pos: { x: 26.1, y: 11.8 } },
-        { name_ja: "南ポット", name_en: "South magic pots", pos: { x: 11.2, y: 26.3 } },
-      ],
-      mapimg: {
-        x: 4096,
-        y: 4096,
-        src: './img/地下.png',
-      },
-      mappos: {
-        x_min: 1.0,
-        y_min: 1.0,
-        x_max: 41.9,
-        y_max: 41.9,
-        x_size: 40.9,
-        y_size: 40.9,
-      },
-      potdata: [
         { x: 18.5, y: 27.4, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "", },
         { x: 27.1, y: 25.2, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
         { x: 22.3, y: 24.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "", },
@@ -332,11 +300,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 24.7, y: 21.8, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
         { x: 25.9, y: 20.8, tag: "treasure_silver", name_ja: "hisame", name_en: "", },
         { x: 27.7, y: 25.0, tag: "treasure_bronze", name_ja: "hisame", name_en: "", },
-
-
-
-
-
 
 
 
