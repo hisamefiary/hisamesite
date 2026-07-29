@@ -270,7 +270,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:25.9,y:20.8,tag:"treasure_silver",name_ja:"hisame",name_en:"",},
 {x:27.7,y:25,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:18.2,y:20,tag:"pot_silver",name_ja:"フレンド",name_en:"",},
-{x:19,y:37,tag:"carrot",name_ja:"シャウト",name_en:"",},
 {x:30.5,y:30.8,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:37.7,y:34.9,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:34.2,y:7.5,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
@@ -393,7 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:7.4,y:39.9,tag:"treasure_bronze",name_ja:"",name_en:"",},
 {x:5.4,y:34.1,tag:"treasure_bronze",name_ja:"",name_en:"",},
 {x:22.3,y:24.8,tag:"treasure_bronze",name_ja:"",name_en:"",},
-
+{x:19,y:37,tag:"carrot",name_ja:"",name_en:"",},
 
 
 
