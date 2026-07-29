@@ -203,7 +203,6 @@ document.addEventListener('DOMContentLoaded', () => {
         y_size: 40.9,
       },
       potdata: [
-
 {x:7.4,y:14,tag:"search",name_ja:"hisame",name_en:"",},
 {x:10.9,y:38.8,tag:"search",name_ja:"シャウト",name_en:"",},
 {x:24.5,y:4.6,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
@@ -275,20 +274,12 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:25.9,y:20.8,tag:"treasure_silver",name_ja:"hisame",name_en:"",},
 {x:27.7,y:25,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:18.2,y:20,tag:"pot_silver",name_ja:"フレンド",name_en:"",},
-{x:8.8,y:26.3,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:9.3,y:29,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:19,y:37,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:30.5,y:30.8,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:37.7,y:34.9,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:34.2,y:7.5,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:40.7,y:3.9,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-
 {x:23.6,y:10.4,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:18.9,y:18.1,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:7.3,y:13.6,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:2.9,y:6.6,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:5.3,y:3.9,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-
 {x:35,y:40.6,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:23,y:32.2,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:23.1,y:15.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
@@ -373,7 +364,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:23.3,y:19.1,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:25.2,y:17.3,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:29.1,y:17.9,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:33.3,y:22.1,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:32.3,y:24.3,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:21.1,y:21,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:19.7,y:21.5,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
@@ -395,6 +385,18 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:17.8,y:34.8,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:25.6,y:39.7,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:22.5,y:32.5,tag:"pot_silver",name_ja:"Twitter(現X)",name_en:"",},
+{x:18.8,y:18,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
+{x:7.3,y:13.5,tag:"treasure_bronze",name_ja:"フレンド",name_en:"",},
+{x:8.8,y:26.2,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
+{x:29.2,y:17.9,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
+{x:33.3,y:22.1,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
+{x:9.3,y:28.9,tag:"carrot",name_ja:"hisame",name_en:"",},
+{x:2.9,y:6.5,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
+{x:2.2,y:12.9,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
+{x:40.6,y:3.8,tag:"carrot",name_ja:"シャウト",name_en:"",},
+
+
+
 
         
         ]
