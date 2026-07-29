@@ -284,8 +284,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:31,y:17.4,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:4.4,y:25.3,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
 {x:9.3,y:40.2,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
-{x:18.5,y:27.4,tag:"treasure_silver",name_ja:"Twitter(現X)",name_en:"",},
-{x:27.1,y:25.2,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
 {x:22.3,y:24.8,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
 {x:15.7,y:23.9,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:18.5,y:27.5,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
@@ -308,7 +306,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:26.8,y:9.4,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:30.6,y:31.5,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:26.4,y:39.8,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
-{x:35.7,y:40.8,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:35.5,y:36.4,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:37.9,y:35,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:11.2,y:3.8,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
@@ -328,6 +325,8 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:4.3,y:29.1,tag:"carrot",name_ja:"",name_en:"",},
 {x:39.1,y:23.7,tag:"carrot",name_ja:"",name_en:"",},
 {x:21.6,y:20.7,tag:"carrot",name_ja:"",name_en:"",},
+
+
 
 
 
