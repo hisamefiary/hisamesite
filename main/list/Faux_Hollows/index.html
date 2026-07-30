@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>ソーチョー計算機Ver1.0</title>
+  <meta name="description" content="ソーチョー計算機">
+
+  <link rel="icon" href="../../other/icon.png">
+  <link rel="stylesheet" href="../../other/general.css">
+  <script type="text/javascript" src="../../other/general.js"></script>
+
+  <link rel="stylesheet" href="../../other/headerfooter.css">
+  <script type="text/javascript" src="../../other/headerfooter.js"></script>
+
+  <script>window.fia_data = { header: undefined, footer: 'xivtool', }</script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let update_log_txt = {
+        bug_list: ["現在ありません",],
+        next_list: ["現在ありません",],
+        update_list: [
+          [["Ver1.0", "(2026/XX/XX)"], ["作成しました",],],
+        ],
+      }
+      update_create(update_log_txt)
+    })
+  </script>
+
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+  <main>
+    <div id="flex_mother">
+      <div id="base">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+        <img src="./img/不明.png" alt="" data-panel="不明">
+      </div>
+      <button id="reset_button">リセット</button>
+    </div>
+    <div id="input">
+      <div id="base">
+        <img alt="" data-panel="横1" src="./img/横1.png">
+        <img alt="" data-panel="横2" src="./img/横2.png">
+        <img alt="" data-panel="横3" src="./img/横3.png">
+        <img alt="" data-panel="横4" src="./img/横4.png">
+        <img alt="" data-panel="横5" src="./img/横5.png">
+        <img alt="" data-panel="横6" src="./img/横6.png">
+        <img alt="" data-panel="空" src="./img/空.png">
+        <img alt="" data-panel="狐" src="./img/狐.png">
+        <img alt="" data-panel="縦1" src="./img/縦1.png">
+        <img alt="" data-panel="縦2" src="./img/縦2.png">
+        <img alt="" data-panel="縦3" src="./img/縦3.png">
+        <img alt="" data-panel="縦4" src="./img/縦4.png">
+        <img alt="" data-panel="縦5" src="./img/縦5.png">
+        <img alt="" data-panel="縦6" src="./img/縦6.png">
+        <img alt="" data-panel="箱1" src="./img/箱1.png">
+        <img alt="" data-panel="箱2" src="./img/箱2.png">
+        <img alt="" data-panel="箱3" src="./img/箱3.png">
+        <img alt="" data-panel="箱4" src="./img/箱4.png">
+      </div>
+    </div>
+    <div id="page_description">
+      <p>
+        ソーチョーの計算機です<br>
+        まず盤面をクリックで壁を選択します<br>
+        四隅orその隣or斜め隣接を選択すると確定します<br>
+        壁が決まったら、？を空けて中身を回答していきます<br>
+        多分高効率です、たぶん<br>
+        初手は確定しやすい場所を空けて、二手目や三手目はできるだけ箱や狐が出やすい場所を拾っています<br>
+        最大3手で確定、3手の時は必ず剣を1マス開けて、できるだけソーチョーか箱のマスを触っています<br>
+      </p>
+    </div>
+  </main>
+</body>
+
+</html>
