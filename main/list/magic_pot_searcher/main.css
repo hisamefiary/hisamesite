@@ -20,7 +20,11 @@
   &.hidden_carrot .icon.carrot {
     display: none;
   }
-  &.hidden_mob .icon.mob {
+  &.hidden_mob .icon.mob:not(.限定) {
+    display: none;
+  }
+
+  &.hidden_mob_限定 .icon.mob.限定 {
     display: none;
   }
 
