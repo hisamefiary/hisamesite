@@ -384,20 +384,18 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:9.3,y:28.9,tag:"carrot",name_ja:"hisame",name_en:"",},
 {x:2.2,y:12.9,tag:"pot_bronze",name_ja:"hisame",name_en:"",},
 {x:40.6,y:3.8,tag:"carrot",name_ja:"シャウト",name_en:"",},
-{x:7.3,y:13.5,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:26.2,y:27.6,tag:"pot_silver",name_ja:"",name_en:"",},
-{x:5.1,y:7.4,tag:"treasure_silver",name_ja:"",name_en:"",},
-{x:2.9,y:6.5,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:7.4,y:39.9,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:5.4,y:34.1,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:22.3,y:24.8,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:19,y:37,tag:"carrot",name_ja:"",name_en:"",},
-{x:37.7,y:34.8,tag:"treasure_bronze",name_ja:"",name_en:"",},
-{x:5.2,y:3.8,tag:"carrot",name_ja:"",name_en:"",},
+{x:7.3,y:13.5,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:26.2,y:27.6,tag:"pot_silver",name_ja:"hisame",name_en:"",},
+{x:5.1,y:7.4,tag:"treasure_silver",name_ja:"hisame",name_en:"",},
+{x:2.9,y:6.5,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:7.4,y:39.9,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:5.4,y:34.1,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:22.3,y:24.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:19,y:37,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
+{x:37.7,y:34.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:5.2,y:3.8,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
 
 //#endregion
-
-
 
 //#region
 {x:37.8,y:36.8,tag:"mob",name_ja:"クレセント・クリフカイト<br>通常 LV20 ",name_en:"クレセント・クリフカイト<br>通常 LV20 ",},
@@ -711,7 +709,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 //#endregion
-
 
 
 
