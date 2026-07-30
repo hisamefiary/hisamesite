@@ -21,6 +21,7 @@
         bug_list: ["現在ありません",],
         next_list: ["現在ありません",],
         update_list: [
+          // ポットの中身分類を廃止しました、ポップアップに座標が表示されるようになりました
           [["Ver4.1", "(2026/07/28)"], ["デフォルトが北征編になるように変更しました", "北征編のマップを差し替えました", "北征編のサンプルアイコンを消しました"],],
           [["Ver4.0", "(2026/06/07)"], ["システム周りを１から組みなおしました", "情報提供者のメモを追加しました", "拡大縮小に対応しました", "ポットをクリックした際、反応距離が出るようになりました",],],
           [["Ver3.5", "(2026/03/19)"], ["青銅の箱の色を変更しました", "いくつか追加しました",],],
@@ -92,6 +93,10 @@
           <div>
             <input type="checkbox" id="id_change_carrot" checked>
             <label for="id_change_carrot">ニンジン表示切替</label>
+          </div>
+          <div>
+            <input type="checkbox" id="id_change_mob">
+            <label for="id_change_mob">MOB表示切替</label>
           </div>
         </div>
         <div id="id_select_list_aetheryte">

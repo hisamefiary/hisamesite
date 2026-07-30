@@ -20,6 +20,9 @@
   &.hidden_carrot .icon.carrot {
     display: none;
   }
+  &.hidden_mob .icon.mob {
+    display: none;
+  }
 
   &.hidden_border canvas[data-border],
   &.hidden_border canvas[data-fill] {
