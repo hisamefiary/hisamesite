@@ -203,6 +203,10 @@ document.addEventListener('DOMContentLoaded', () => {
         y_size: 40.9,
       },
       potdata: [
+
+
+
+        
 //#region
 {x:7.4,y:14,tag:"search",name_ja:"hisame",name_en:"",},
 {x:10.9,y:38.8,tag:"search",name_ja:"シャウト",name_en:"",},
@@ -230,7 +234,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:35.8,y:26.8,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
 {x:9.4,y:21.2,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
 {x:27,y:14.3,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
-{x:20.9,y:12.6,tag:"treasure_bronze",name_ja:"フレンド",name_en:"",},
 {x:12.7,y:24.8,tag:"treasure_bronze",name_ja:"Twitter(現X)<br>フレンド",name_en:"",},
 {x:36.5,y:31.6,tag:"search",name_ja:"hisame",name_en:"",},
 {x:40.4,y:10.1,tag:"pot_silver",name_ja:"フレンド",name_en:"",},
@@ -248,7 +251,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:9.6,y:36.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:39,y:38,tag:"search",name_ja:"hisame",name_en:"",},
 {x:30.4,y:23.5,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
-{x:4.3,y:9.4,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
 {x:22.9,y:40.3,tag:"pot_silver",name_ja:"フレンド",name_en:"",},
 {x:5.1,y:10.2,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
 {x:30.2,y:2.9,tag:"pot_bronze",name_ja:"Twitter(現X)",name_en:"",},
@@ -271,7 +273,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:25.9,y:20.8,tag:"treasure_silver",name_ja:"hisame",name_en:"",},
 {x:27.7,y:25,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:18.2,y:20,tag:"pot_silver",name_ja:"フレンド",name_en:"",},
-{x:30.5,y:30.8,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:34.2,y:7.5,tag:"treasure_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:23.6,y:10.4,tag:"carrot_unknown",name_ja:"詳細座標募集中！",name_en:"",},
 {x:35,y:40.6,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
@@ -394,8 +395,109 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:19,y:37,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
 {x:37.7,y:34.8,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
 {x:5.2,y:3.8,tag:"carrot",name_ja:"Twitter(現X)",name_en:"",},
+{x:33.7,y:34.8,tag:"treasure_bronze",name_ja:"Twitter(現X)",name_en:"",},
+{x:4.3,y:9.2,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:8.9,y:12.4,tag:"pot_silver",name_ja:"hisame",name_en:"hisame",},
+{x:20.9,y:12.7,tag:"treasure_bronze",name_ja:"hisame",name_en:"",},
+{x:30.4,y:30.6,tag:"treasure_bronze",name_ja:"",name_en:"",},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 //#endregion
+
+
+
 
 //#region
 {x:37.8,y:36.8,tag:"mob",name_ja:"クレセント・クリフカイト<br>通常 LV20 ",name_en:"クレセント・クリフカイト<br>通常 LV20 ",},
@@ -605,7 +707,7 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:3.4,y:36.5,tag:"mob_視覚",name_ja:"クレセント・ジルニトラ<br>通常 LV42 視覚",name_en:"クレセント・ジルニトラ<br>通常 LV42 視覚",},
 {x:4.5,y:37.4,tag:"mob_視覚",name_ja:"クレセント・ジルニトラ<br>通常 LV42 視覚",name_en:"クレセント・ジルニトラ<br>通常 LV42 視覚",},
 {x:6,y:36.2,tag:"mob_視覚",name_ja:"クレセント・ジルニトラ<br>通常 LV42 視覚",name_en:"クレセント・ジルニトラ<br>通常 LV42 視覚",},
-{x:4.6,y:36.4,tag:"mob_限定",name_ja:"クレセント・ドルヴァ<br>曇り限定 LV42 反応無？",name_en:"クレセント・ドルヴァ<br>曇り限定 LV42 反応無？",},
+{x:4.6,y:36.4,tag:"mob_限定",name_ja:"クレセント・ドルヴァ<br>曇り限定 LV42 ゼロ距離",name_en:"クレセント・ドルヴァ<br>曇り限定 LV42 ゼロ距離",},
 {x:3.8,y:35.9,tag:"mob_視覚",name_ja:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",name_en:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",},
 {x:5.3,y:35.3,tag:"mob_視覚",name_ja:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",name_en:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",},
 {x:5.6,y:36.8,tag:"mob_視覚",name_ja:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",name_en:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",},
@@ -614,7 +716,7 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:5.6,y:38.4,tag:"mob_視覚",name_ja:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",name_en:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",},
 {x:6.6,y:37.9,tag:"mob_視覚",name_ja:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",name_en:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",},
 {x:6.6,y:37.5,tag:"mob_視覚",name_ja:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",name_en:"クレセント・ホワイトフレイム<br>通常 LV42 視覚",},
-{x:8.3,y:33.6,tag:"mob_限定",name_ja:"クレセント・ドルヴァ<br>曇り限定 LV35 反応無？",name_en:"クレセント・ドルヴァ<br>曇り限定 LV35 反応無？",},
+{x:8.3,y:33.6,tag:"mob_限定",name_ja:"クレセント・ドルヴァ<br>曇り限定 LV35 ゼロ距離",name_en:"クレセント・ドルヴァ<br>曇り限定 LV35 ゼロ距離",},
 {x:10.4,y:39.3,tag:"mob_視覚",name_ja:"バード・オブ・クレセント<br>通常 LV41 視覚",name_en:"バード・オブ・クレセント<br>通常 LV41 視覚",},
 {x:10.3,y:40.5,tag:"mob_視覚",name_ja:"バード・オブ・クレセント<br>通常 LV41 視覚",name_en:"バード・オブ・クレセント<br>通常 LV41 視覚",},
 {x:10.7,y:38.4,tag:"mob_視覚",name_ja:"クレセント・ガゼルホーク<br>通常 LV41 視覚",name_en:"クレセント・ガゼルホーク<br>通常 LV41 視覚",},
@@ -680,39 +782,246 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:16,y:39.6,tag:"mob_視覚",name_ja:"クレセント・クァール<br>通常 LV32 視覚",name_en:"クレセント・クァール<br>通常 LV32 視覚",},
 {x:14.6,y:40,tag:"mob_視覚",name_ja:"クレセント・クァール<br>通常 LV32 視覚",name_en:"クレセント・クァール<br>通常 LV32 視覚",},
 {x:13.6,y:39.5,tag:"mob_視覚",name_ja:"クレセント・クァール<br>通常 LV32 視覚",name_en:"クレセント・クァール<br>通常 LV32 視覚",},
+{x:39.8,y:25.5,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:40.5,y:25,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:39.4,y:24.1,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:40.1,y:23.2,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:39.2,y:22,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:39.9,y:21.5,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:39.4,y:20,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:40.2,y:16.2,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:38.7,y:15.4,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:39.2,y:14.5,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:39.5,y:13.3,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:38,y:14,tag:"mob",name_ja:"クレセント・ローレライ<br>通常 LV28 ",name_en:"クレセント・ローレライ<br>通常 LV28 ",},
+{x:37.7,y:5.3,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:38.1,y:3.8,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:38.5,y:4.6,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:39.4,y:5.4,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:39.7,y:4.7,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:39.2,y:4,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:39.8,y:3.9,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:40.1,y:3,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:40.7,y:4.6,tag:"mob_視覚",name_ja:"クレセント・アカースド<br>通常 LV44 視覚",name_en:"クレセント・アカースド<br>通常 LV44 視覚",},
+{x:39.8,y:8.6,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:35.3,y:6.5,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:35.5,y:5.7,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:36.7,y:7,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:37.7,y:7.7,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:38.5,y:7,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:39.7,y:7.8,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:38.6,y:8.1,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:38.1,y:8.9,tag:"mob_視覚",name_ja:"クレセント・ナンカ<br>通常 LV44 視覚",name_en:"クレセント・ナンカ<br>通常 LV44 視覚",},
+{x:35.1,y:10.2,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:35.6,y:10.7,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:34.4,y:9.3,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:33.5,y:8.4,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:32.9,y:7.6,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:33,y:6.9,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:32.2,y:6.9,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:33.9,y:6.8,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:34.1,y:7.6,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:35,y:7.4,tag:"mob_視覚",name_ja:"クレセント・バイル<br>通常 LV43 視覚",name_en:"クレセント・バイル<br>通常 LV43 視覚",},
+{x:33,y:4.8,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:33.9,y:4.2,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:34.4,y:6,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:33.5,y:5.7,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:34.6,y:4.6,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:34.5,y:3.1,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:33.4,y:2.7,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:32.8,y:3.7,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:32,y:4.6,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:30.9,y:4,tag:"mob_聴覚",name_ja:"クレセント・ハウント<br>通常 LV43 聴覚",name_en:"クレセント・ハウント<br>通常 LV43 聴覚",},
+{x:28.7,y:3.9,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:28.9,y:4.7,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:28.5,y:5.4,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:29.2,y:6,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:29.9,y:5.9,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:30.2,y:5,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:30.8,y:6.5,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:29.9,y:6.8,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:29,y:7.3,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:29.8,y:8.3,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:30.8,y:7.6,tag:"mob",name_ja:"クレセント・ストーンシェル<br>通常 LV29 ",name_en:"クレセント・ストーンシェル<br>通常 LV29 ",},
+{x:31.3,y:9.1,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:32.2,y:8.7,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:32.8,y:9.8,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:33.9,y:10.4,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:35.3,y:11.7,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:36.9,y:11.9,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:39.2,y:11,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:40,y:10.3,tag:"mob",name_ja:"クレセント・フワシ<br>通常 LV29 ",name_en:"クレセント・フワシ<br>通常 LV29 ",},
+{x:38.8,y:17.2,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:36.8,y:16.7,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:32.9,y:16.6,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:33.9,y:15.4,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:34.5,y:14.5,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:33.1,y:14.3,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:32.2,y:13.5,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:33.2,y:13,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:35.6,y:15.9,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:35.6,y:14.2,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:34.7,y:13.1,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:36.6,y:13.4,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV28 ",name_en:"クレセント・ソルトスワロー<br>通常 LV28 ",},
+{x:14.2,y:3.4,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:14.4,y:4.2,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:13.4,y:4,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:12.7,y:3.3,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:13.3,y:2.7,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:14.2,y:2.5,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:11.5,y:3.4,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:10.7,y:2.8,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:10.2,y:3.7,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:9.3,y:2.9,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:8.9,y:3.5,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:9.8,y:4.5,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:9.4,y:5.1,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:8.2,y:4.6,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:7.9,y:5.6,tag:"mob_聴覚",name_ja:"クレセント・キャリアー<br>通常 LV46 聴覚",name_en:"クレセント・キャリアー<br>通常 LV46 聴覚",},
+{x:4.5,y:5,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:3.3,y:5.4,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:3.3,y:4.3,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:4,y:3.1,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:4.8,y:2.4,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:5.7,y:2.4,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:7.5,y:2.6,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:6,y:3.4,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:4.9,y:3.8,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:5.7,y:4.4,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:6.8,y:4.4,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:7.9,y:3.6,tag:"mob_視覚",name_ja:"クレセント・ワモーラ<br>通常 LV46 視覚",name_en:"クレセント・ワモーラ<br>通常 LV46 視覚",},
+{x:8.4,y:8.1,tag:"mob_限定_視覚",name_ja:"クレセント・スカネテ<br>夜限定 LV45 視覚",name_en:"クレセント・スカネテ<br>夜限定 LV45 視覚",},
+{x:5.6,y:6.1,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:5.6,y:7.3,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:6.4,y:6.9,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:4.1,y:6.9,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:3,y:7,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:6.2,y:7.8,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:7.5,y:7.8,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:8.4,y:6.6,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:8.1,y:8.8,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:8.9,y:7.8,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:9.1,y:9,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:9.7,y:6.2,tag:"mob_聴覚",name_ja:"クレセント・アリオク<br>通常 LV45 聴覚",name_en:"クレセント・アリオク<br>通常 LV45 聴覚",},
+{x:7.3,y:6.4,tag:"mob_限定",name_ja:"クレセント・ドルヴァ<br>曇り限定 LV48 ゼロ距離",name_en:"クレセント・ドルヴァ<br>曇り限定 LV48 ゼロ距離",},
+{x:5.8,y:10.8,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:6.8,y:9.7,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:6.7,y:9.1,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:7.7,y:9.6,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:5.9,y:9.7,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:5.3,y:9.2,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:4.6,y:9.2,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:4.2,y:8.7,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:3.8,y:9.4,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:3.1,y:9.1,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:3.2,y:8.2,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:2.8,y:9.6,tag:"mob_視覚",name_ja:"クレセント・オワゾーラール<br>通常 LV45 視覚",name_en:"クレセント・オワゾーラール<br>通常 LV45 視覚",},
+{x:2.6,y:12,tag:"mob_限定",name_ja:"クレセント・ドルヴァ<br>曇り限定 LV40 ゼロ距離",name_en:"クレセント・ドルヴァ<br>曇り限定 LV40 ゼロ距離",},
+{x:11.5,y:11.6,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:11,y:10.8,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:10.2,y:11.3,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:9.8,y:10.5,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:9.3,y:10.7,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:8.8,y:10.3,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:7.6,y:11.3,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:8,y:10.5,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:7,y:11,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:6.9,y:12.2,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:5.7,y:12,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:4.9,y:12.1,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:4.5,y:11.8,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:3.9,y:13.4,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:3.3,y:12.7,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:3.2,y:11.8,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:2.5,y:11.1,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:2.8,y:13.5,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:2.4,y:14.2,tag:"mob_視覚",name_ja:"クレセント・ロットアイズ<br>通常 LV37 視覚",name_en:"クレセント・ロットアイズ<br>通常 LV37 視覚",},
+{x:10.5,y:10.8,tag:"mob_限定_視覚",name_ja:"クレセント・ムース<br>雨限定 LV40 視覚",name_en:"クレセント・ムース<br>雨限定 LV40 視覚",},
+{x:4.4,y:14.6,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:4.6,y:14.2,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:5.3,y:14.6,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:6.1,y:14.5,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:4.8,y:13.7,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:5.3,y:13.1,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:7.9,y:14.2,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:8.3,y:14.1,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:9.7,y:13.7,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:10.7,y:13.2,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:11.3,y:12.5,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:10.6,y:12.3,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:9.8,y:12.9,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:9.8,y:12.3,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:9,y:11.9,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:9.3,y:11.5,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:8.5,y:13.4,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:8.7,y:13,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:8.2,y:12.3,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:7.8,y:12,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:7.5,y:13.2,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:6.7,y:13.9,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:6.1,y:13.5,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:5.8,y:13,tag:"mob_視覚",name_ja:"クレセント・グレムリン<br>通常 LV37 視覚",name_en:"クレセント・グレムリン<br>通常 LV37 視覚",},
+{x:11.9,y:10.8,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:12.7,y:10.7,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:12.6,y:11.5,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:13,y:10.1,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:12.2,y:9.6,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:12.2,y:8.8,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:13.7,y:9.4,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:13.9,y:8.9,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:12.7,y:8.3,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:13.4,y:8.1,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:13.7,y:7.3,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:14.6,y:7.9,tag:"mob_聴覚",name_ja:"クレセント・モスフングス<br>通常 LV38 聴覚",name_en:"クレセント・モスフングス<br>通常 LV38 聴覚",},
+{x:9.5,y:8.7,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:10.9,y:6.8,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:12,y:7.2,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:14.9,y:7,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:13.7,y:6,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:14.4,y:5.5,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:13.7,y:5.1,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:12,y:4.4,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:11.4,y:4.8,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:10.8,y:5.3,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:11.5,y:5.9,tag:"mob_視覚",name_ja:"クレセント・ベーンマイト<br>通常 LV38 視覚",name_en:"クレセント・ベーンマイト<br>通常 LV38 視覚",},
+{x:19.2,y:15,tag:"mob_限定_視覚",name_ja:"クレセント・ムース<br>雨限定 LV30 視覚",name_en:"クレセント・ムース<br>雨限定 LV30 視覚",},
+{x:13.7,y:19.5,tag:"mob_限定_視覚",name_ja:"クレセント・ムース<br>雨限定 LV30 視覚",name_en:"クレセント・ムース<br>雨限定 LV30 視覚",},
+{x:13,y:24.2,tag:"mob_限定_視覚",name_ja:"クレセント・ムース<br>雨限定 LV30 視覚",name_en:"クレセント・ムース<br>雨限定 LV30 視覚",},
+{x:18.4,y:15.3,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:18.4,y:15.3,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:17.4,y:15.4,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:17.1,y:16.3,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:16.1,y:17.3,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:15.2,y:18,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:15,y:18.6,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:13.7,y:19,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:13.1,y:19.9,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:13.4,y:20.8,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:12.7,y:21.6,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:12.8,y:22.9,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
+{x:12.4,y:23.3,tag:"mob_視覚",name_ja:"クレセント・クラックロー<br>通常 LV36 視覚",name_en:"クレセント・クラックロー<br>通常 LV36 視覚",},
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+{x:31.3,y:31.6,tag:"mob_限定",name_ja:"クレセント・アンクー<br>夜限定 LV ",name_en:"クレセント・アンクー<br>夜限定 LV ",},
+{x:31.9,y:31.1,tag:"mob",name_ja:"クレセント・シングラータ<br>通常 LV ",name_en:"クレセント・シングラータ<br>通常 LV ",},
+{x:33.8,y:29,tag:"mob",name_ja:"クレセント・ウォーム<br>通常 LV ",name_en:"クレセント・ウォーム<br>通常 LV ",},
+{x:36.5,y:13.4,tag:"mob",name_ja:"クレセント・ソルトスワロー<br>通常 LV ",name_en:"クレセント・ソルトスワロー<br>通常 LV ",},
+{x:36.1,y:12.8,tag:"mob_限定",name_ja:"クレセント・グラットン<br>夜限定 LV ",name_en:"クレセント・グラットン<br>夜限定 LV ",},
 
 
 
 
 
 //#endregion
+     
 
 
 
-      ]
+]
     },
   }
   let informant = "情報提供"
