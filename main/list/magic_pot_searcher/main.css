@@ -9,6 +9,57 @@
     opacity: 0.5;
   }
 
+  &.mob_lv_1 .icon.mob.lv_1,
+  &.mob_lv_2 .icon.mob.lv_2,
+  &.mob_lv_3 .icon.mob.lv_3,
+  &.mob_lv_4 .icon.mob.lv_4,
+  &.mob_lv_5 .icon.mob.lv_5,
+  &.mob_lv_6 .icon.mob.lv_6,
+  &.mob_lv_7 .icon.mob.lv_7,
+  &.mob_lv_8 .icon.mob.lv_8,
+  &.mob_lv_9 .icon.mob.lv_9,
+  &.mob_lv_10 .icon.mob.lv_10,
+  &.mob_lv_11 .icon.mob.lv_11,
+  &.mob_lv_12 .icon.mob.lv_12,
+  &.mob_lv_13 .icon.mob.lv_13,
+  &.mob_lv_14 .icon.mob.lv_14,
+  &.mob_lv_15 .icon.mob.lv_15,
+  &.mob_lv_16 .icon.mob.lv_16,
+  &.mob_lv_17 .icon.mob.lv_17,
+  &.mob_lv_18 .icon.mob.lv_18,
+  &.mob_lv_19 .icon.mob.lv_19,
+  &.mob_lv_20 .icon.mob.lv_20,
+  &.mob_lv_21 .icon.mob.lv_21,
+  &.mob_lv_22 .icon.mob.lv_22,
+  &.mob_lv_23 .icon.mob.lv_23,
+  &.mob_lv_24 .icon.mob.lv_24,
+  &.mob_lv_25 .icon.mob.lv_25,
+  &.mob_lv_26 .icon.mob.lv_26,
+  &.mob_lv_27 .icon.mob.lv_27,
+  &.mob_lv_28 .icon.mob.lv_28,
+  &.mob_lv_29 .icon.mob.lv_29,
+  &.mob_lv_30 .icon.mob.lv_30,
+  &.mob_lv_31 .icon.mob.lv_31,
+  &.mob_lv_32 .icon.mob.lv_32,
+  &.mob_lv_33 .icon.mob.lv_33,
+  &.mob_lv_34 .icon.mob.lv_34,
+  &.mob_lv_35 .icon.mob.lv_35,
+  &.mob_lv_36 .icon.mob.lv_36,
+  &.mob_lv_37 .icon.mob.lv_37,
+  &.mob_lv_38 .icon.mob.lv_38,
+  &.mob_lv_39 .icon.mob.lv_39,
+  &.mob_lv_40 .icon.mob.lv_40,
+  &.mob_lv_41 .icon.mob.lv_41,
+  &.mob_lv_42 .icon.mob.lv_42,
+  &.mob_lv_43 .icon.mob.lv_43,
+  &.mob_lv_44 .icon.mob.lv_44,
+  &.mob_lv_45 .icon.mob.lv_45,
+  &.mob_lv_46 .icon.mob.lv_46,
+  &.mob_lv_47 .icon.mob.lv_47,
+  &.mob_lv_48 .icon.mob.lv_48 {
+    opacity: 0.3;
+  }
+
   &.hidden_pot .icon.pot {
     display: none;
   }
@@ -26,10 +77,10 @@
   }
 
   .icon.mob {
-    margin-left: -8px!important;
-    margin-top: -8px!important;
-    width: 16px!important;
-    height: 16px!important;
+    margin-left: -8px !important;
+    margin-top: -8px !important;
+    width: 16px !important;
+    height: 16px !important;
   }
 
   &.hidden_mob .icon.mob:not(.限定) {
