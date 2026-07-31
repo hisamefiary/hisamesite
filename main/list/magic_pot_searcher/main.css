@@ -5,6 +5,10 @@
 #id_all {
   height: calc(min(100vw - 300px, 100vh - 100px));
 
+  .mk_check {
+    opacity: 0.5;
+  }
+
   &.hidden_pot .icon.pot {
     display: none;
   }
@@ -20,6 +24,7 @@
   &.hidden_carrot .icon.carrot {
     display: none;
   }
+
   &.hidden_mob .icon.mob:not(.限定) {
     display: none;
   }
