@@ -1856,6 +1856,12 @@ document.addEventListener('DOMContentLoaded', () => {
             marker._icon.classList.toggle('mk_check');
           }
         });
+        element.addEventListener("contextmenu", (e) => {
+          const marker = e.target;
+          if (marker._icon) {
+            marker._icon.classList.toggle('mk_check');
+          }
+        });
       })
       leaflet_map.on('contextmenu', (e) => {
         move(e)
