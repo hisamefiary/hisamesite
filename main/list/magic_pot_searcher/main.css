@@ -9,23 +9,23 @@
     opacity: 0.5;
   }
 
-  &:not([data-weather='雨']) .icon.mob.雨 {
+  &:not([data-weather='雨']):not([data-weather='全部']) .icon.mob.雨 {
     opacity: 0.3;
   }
 
-  &:not([data-weather='快晴']) .icon.mob.快晴 {
+  &:not([data-weather='快晴']):not([data-weather='全部']) .icon.mob.快晴 {
     opacity: 0.3;
   }
 
-  &:not([data-weather='曇り']) .icon.mob.曇り {
+  &:not([data-weather='曇り']):not([data-weather='全部']) .icon.mob.曇り {
     opacity: 0.3;
   }
 
-  &:not([data-weather='幻怪']) .icon.mob.幻怪 {
+  &:not([data-weather='幻怪']):not([data-weather='全部']) .icon.mob.幻怪 {
     opacity: 0.3;
   }
 
-  &:not([data-weather='幻妖']) .icon.mob.幻妖 {
+  &:not([data-weather='幻妖']):not([data-weather='全部']) .icon.mob.幻妖 {
     opacity: 0.3;
   }
 
