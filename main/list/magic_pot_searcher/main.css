@@ -9,6 +9,30 @@
     opacity: 0.5;
   }
 
+  &:not([data-weather='雨']) .icon.mob.雨 {
+    opacity: 0.3;
+  }
+
+  &:not([data-weather='快晴']) .icon.mob.快晴 {
+    opacity: 0.3;
+  }
+
+  &:not([data-weather='曇り']) .icon.mob.曇り {
+    opacity: 0.3;
+  }
+
+  &:not([data-weather='幻怪']) .icon.mob.幻怪 {
+    opacity: 0.3;
+  }
+
+  &:not([data-weather='幻妖']) .icon.mob.幻妖 {
+    opacity: 0.3;
+  }
+
+  &:not([data-time='夜']) .icon.mob.夜 {
+    opacity: 0.3;
+  }
+
   &.mob_lv_1 .icon.mob.lv_1,
   &.mob_lv_2 .icon.mob.lv_2,
   &.mob_lv_3 .icon.mob.lv_3,
@@ -118,7 +142,7 @@
       pointer-events: auto;
     }
 
-    div {
+    >* {
       text-align: end;
     }
 
@@ -127,25 +151,35 @@
 
       select,
       label {
-        font-size: 1rem;
+        font-size: 1.2rem;
       }
+    }
+
+    #id_button_list>button {
+      margin-top: 0.5rem;
+      font-size: 1rem;
+      line-height: 2;
     }
 
     #id_select_other {
       padding-top: 1vw;
 
-      button {
-        font-size: 1rem;
-        line-height: 2;
+      img {
+        width: 1.2rem;
       }
 
+      &.非表示 {
+        display: none;
+      }
+
+
       label {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
       }
 
       input {
-        width: 1.5rem;
-        height: 1.5rem;
+        width: 1.2rem;
+        height: 1.2rem;
       }
 
     }
@@ -153,13 +187,41 @@
     #id_select_list_aetheryte {
       padding-top: 1vw;
 
+      &.非表示 {
+        display: none;
+      }
+
       select,
       label {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: sans-serif;
       }
     }
 
   }
 
+  #id_select_lvweather {
+    #id_input_lv {
+      width: 2.5rem;
+      font-size: 1.2rem;
+    }
+
+    label {
+      font-size: 1.2rem;
+    }
+
+    input {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+
+    &.非表示 {
+      display: none;
+    }
+
+    select {
+      font-size: 1.2rem;
+      font-family: sans-serif;
+    }
+  }
 }

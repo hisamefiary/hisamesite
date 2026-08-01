@@ -63,48 +63,76 @@
       <div id="id_select_mother">
         <div id="id_select_map">
           <div>
-            <label for="id_map_select">
-              マップ選択
-            </label>
             <select id="id_map_select">
               <option value="The Occult Crescent: North Horn">クレセントアイル：北征編</option>
               <option value="The Occult Crescent: South Horn">クレセントアイル：南征編</option>
             </select>
           </div>
         </div>
+        <div id="id_button_list">
+          <button id="id_reset">リセット(再読込)</button><br>
+        </div>
         <div id="id_select_other">
-          <button id="id_reset">リセット&マップ読み込み</button>
           <div>
+            <label for="id_change_treasure"><span>宝箱</span>
+              <img src="./img/銅箱.png">
+            </label>
             <input type="checkbox" id="id_change_treasure" checked>
-            <label for="id_change_treasure">宝箱表示切替</label>
           </div>
           <div>
+            <label for="id_change_pot"><span>マジポ</span>
+              <img src="./img/エリクサー.png">
+            </label>
             <input type="checkbox" id="id_change_pot" checked>
-            <label for="id_change_pot">マジポ表示切替</label>
           </div>
           <div>
+            <label for="id_change_border"><span>格子(マジポ検索)</span>
+              <img src="./img/エリクサー.png">
+            </label>
             <input type="checkbox" id="id_change_border" checked>
-            <label for="id_change_border">格子表示切替</label>
           </div>
           <div>
+            <label for="id_change_search"><span>探索地点</span>
+              <img src="./img/search.png">
+            </label>
             <input type="checkbox" id="id_change_search">
-            <label for="id_change_search">探索地点切替</label>
           </div>
           <div>
+            <label for="id_change_carrot"><span>ニンジン</span>
+              <img src="./img/carrot.png">
+            </label>
             <input type="checkbox" id="id_change_carrot" checked>
-            <label for="id_change_carrot">ニンジン表示切替</label>
           </div>
           <div>
+            <label for="id_change_mob"><span>mob</span>
+              <img src="./img/mob.png">
+            </label>
             <input type="checkbox" id="id_change_mob">
-            <label for="id_change_mob">mob表示切替</label>
           </div>
           <div>
+            <label for="id_change_mob_限定"><span>限定mob</span>
+              <img src="./img/mob.png">
+            </label>
             <input type="checkbox" id="id_change_mob_限定">
-            <label for="id_change_mob_限定">限定mob表示切替</label>
+          </div>
+        </div>
+        <div id="id_select_lvweather">
+          <div>
+            <label for="id_input_lv">現在レベル</label>
+            <input type="number" id="id_input_lv" value="40" />
           </div>
           <div>
-            <input type="number" id="id_input_lv" style="width: 3rem;font-size: 1.5rem;" value="40" />
-            <label for="id_input_lv">現在レベル</label>
+            <label for="id_input_weather">現在天気</label>
+            <select id="id_input_weather">
+            </select>
+          </div>
+          <div>
+            <label for="id_input_time">現在時刻</label>
+            <select id="id_input_time">
+              <option value="自動">自動</option>
+              <option value="昼">昼</option>
+              <option value="夜">夜</option>
+            </select>
           </div>
         </div>
         <div id="id_select_list_aetheryte">
@@ -124,12 +152,13 @@
         </dd>
         <dt>使い方(MOBレベル検索)</dt>
         <dd>
-          使う際は必ず[mob表示切替]か[限定mob表示切替]を表示してください<br>
+          使う際は必ず[mob]か[限定mob]を表示してください<br>
           入力したレベルで反応しなくなるモンスターのアイコン+感知の種類が表示されます<br>
           隠れるを行う場合はその分レベルを加算してください(10だったかな？)<br>
         </dd>
         <dt>使い方(マジックポット探索)</dt>
         <dd>
+          使う際は必ず[格子(マジポ)]を表示してください
           討伐し終わった場所＋エーテライトでエリクサーを使い、出た方角を選択すると大体の範囲がわかります<br>
           何もない場所で右クリックを押すとマジックポットの反応距離が出ます(とても遠く/遠く/近く/とても近く)<br>
           マジックポットを右クリックでも反応距離が出ます<br>
