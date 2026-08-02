@@ -339,7 +339,6 @@ document.addEventListener('DOMContentLoaded', () => {
 {x:8.7,y:2.5,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
 {x:11.7,y:2.4,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
 {x:12.5,y:2.1,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
-{x:9.7,y:7.1,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
 {x:4.8,y:9.7,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
 {x:8.9,y:12.5,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
 {x:2,y:10.9,tag:"pot_unknown",name_ja:"詳細座標募集中！",name_en:"詳細座標募集中！",},
@@ -512,8 +511,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-//#endregion
-        
+//#endregion    
 
 //#region
 {x:37.8,y:36.8,tag:"mob_視覚",name_ja:"クレセント・クリフカイト<br>通常 LV20 視覚",name_en:"クレセント・クリフカイト<br>通常 LV20 視覚",classlist:["lv_20",]},
