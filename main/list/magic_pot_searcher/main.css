@@ -2,11 +2,20 @@
   display: none;
 }
 
+
 #id_all {
   height: calc(min(100vw - 300px, 100vh - 100px));
 
   .mk_check {
     opacity: 0.5;
+  }
+
+  &.hidden_moblayer .map_color {
+    display: none;
+  }
+
+  .map_color {
+    opacity: 0.6;
   }
 
   &:not([data-weather='雨']):not([data-weather='全部']) .icon.mob.雨 {
