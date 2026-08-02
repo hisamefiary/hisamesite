@@ -509,7 +509,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         //#endregion
 
-
         //#region
         { x: 37.8, y: 36.8, tag: "mob_視覚", name_ja: "クレセント・クリフカイト<br>通常 LV20 視覚", name_en: "クレセント・クリフカイト<br>通常 LV20 視覚", classlist: ["lv_20",] },
         { x: 38.2, y: 36.9, tag: "mob_限定_聴覚", name_ja: "クレセント・ロトンハウンド<br>夜限定 LV20 聴覚", name_en: "クレセント・ロトンハウンド<br>夜限定 LV20 聴覚", classlist: ["lv_20", "夜",] },
@@ -1387,7 +1386,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 35, y: 15.2, tag: "mob_限定_聴覚", name_ja: "クレセント・グラットン<br>夜限定 LV28 聴覚", name_en: "クレセント・グラットン<br>夜限定 LV28 聴覚", classlist: ["lv_28", "夜",] },
         { x: 36.5, y: 15.7, tag: "mob_限定_聴覚", name_ja: "クレセント・グラットン<br>夜限定 LV28 聴覚", name_en: "クレセント・グラットン<br>夜限定 LV28 聴覚", classlist: ["lv_28", "夜",] },
         { x: 33.8, y: 13.7, tag: "mob_限定_聴覚", name_ja: "クレセント・グラットン<br>夜限定 LV28 聴覚", name_en: "クレセント・グラットン<br>夜限定 LV28 聴覚", classlist: ["lv_28", "夜",] },
-
+        { x: 37.1, y: 6.1, tag: "mob_限定_視覚", name_ja: "クレセント・ボム<br>快晴限定 LV46 視覚", name_en: "クレセント・ボム<br>快晴限定 LV46 視覚", classlist: ["lv_46", "快晴",] },
 
 
 
@@ -1480,6 +1479,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         //#endregion
+
       ]
     },
   }
@@ -1599,9 +1599,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // contextを右クリで起動する事、ドラッグアンドドロップできることを追記
   // #endregion
 
-
-  // 各種チェックボックス
-
+  // #region各種チェックボックス
   const id_input_weather = document.querySelector("#id_input_weather")
   id_input_weather.addEventListener("change", () => {
     weathersearch()
@@ -1718,8 +1716,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   }
   checkbox_change()
+  //#endregion
 
-
+  // #region map関連
   function mapload(mapname) {
     const mapnow = mapdata[mapname]
     const mapimg = mapnow["mapimg"]
@@ -2109,7 +2108,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // #endregion
   }
-
   const id_map_select = document.getElementById("id_map_select")
   function map_select_load() {
     fia_element_clear(id_map_select)
@@ -2126,6 +2124,9 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
   map_select_load()
+  //#endregion
+
+  // #region 初回セット
   id_map_select.value = "The Occult Crescent: North Horn"
   mapload(id_map_select.value)//初回実行
   document.getElementById("id_reset").addEventListener('click', () => {
@@ -2133,5 +2134,6 @@ document.addEventListener('DOMContentLoaded', () => {
   })
   // 全部終わってから実行
   実行関数追加("weathersearch", weathersearch, "これで天気だけ呼べてる")
+  //#endregion
 
 })
