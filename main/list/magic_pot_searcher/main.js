@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 18.1, y: 18.4, tag: "treasure_bronze", name_ja: "氷雨", name_en: "hisame", },
         { x: 3.3, y: 24.4, tag: "search", name_ja: "氷雨", name_en: "hisame", },
         { x: 3, y: 25.4, tag: "treasure_bronze", name_ja: "氷雨", name_en: "hisame", },
-        { x: 9.8, y: 16.3, tag: "treasure_bronze", name_ja: "Twitter(現X)<br>フレンド", name_en: "Twitter(現X)<br>フレンド", },
+        { x: 9.8, y: 16.3, tag: "treasure_bronze", name_ja: "氷雨", name_en: "hisame", },
         { x: 29.1, y: 17.9, tag: "treasure_silver", name_ja: "Twitter(現X)<br>フレンド", name_en: "Twitter(現X)<br>フレンド", },
         { x: 8.3, y: 18.3, tag: "treasure_silver", name_ja: "Twitter(現X)", name_en: "Twitter(X)", },
         { x: 35.8, y: 26.8, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "Twitter(X)", },
@@ -347,7 +347,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 16.4, y: 4.2, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 17.6, y: 6.2, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 19.7, y: 6.7, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
-        { x: 27.8, y: 3.6, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 34, y: 4.6, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 35.4, y: 2.5, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 39.6, y: 2.2, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
@@ -375,7 +374,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 32.3, y: 24.3, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 21.1, y: 21, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 19.7, y: 21.5, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
-        { x: 19.2, y: 20, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 16.3, y: 22.6, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 18, y: 23.5, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 19.2, y: 17.2, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
@@ -389,7 +387,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 9, y: 39.1, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 8.2, y: 40.1, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 16, y: 38.9, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
-        { x: 18.9, y: 37.6, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 17.8, y: 34.8, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 25.6, y: 39.7, tag: "pot_unknown", name_ja: "詳細座標募集中！", name_en: "詳細座標募集中！", },
         { x: 22.5, y: 32.5, tag: "pot_silver", name_ja: "Twitter(現X)", name_en: "Twitter(X)", },
@@ -417,99 +414,14 @@ document.addEventListener('DOMContentLoaded', () => {
         { x: 8.8, y: 26.2, tag: "treasure_bronze", name_ja: "氷雨", name_en: "hisame", },
         { x: 34.2, y: 7.5, tag: "treasure_bronze", name_ja: "Twitter(現X)", name_en: "Twitter(X)", },
         { x: 9.7, y: 7.1, tag: "pot_silver", name_ja: "フレンド", name_en: "フレンド", },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        { x: 19.2, y: 19.9, tag: "pot_bronze", name_ja: "氷雨", name_en: "hisame", },
+        { x: 19.7, y: 21.5, tag: "pot_bronze", name_ja: "氷雨", name_en: "hisame", },
+        { x: 25.9, y: 39.5, tag: "carrot", name_ja: "", name_en: "", },
+        { x: 35.8, y: 26.8, tag: "treasure_bronze", name_ja: "", name_en: "", },
+        { x: 27.9, y: 3.6, tag: "pot_bronze", name_ja: "Twitter(現X)", name_en: "Twitter(X)", },
+        { x: 18.9, y: 37.6, tag: "pot_gold", name_ja: "Twitter(現X)", name_en: "Twitter(X)", },
         //#endregion
-
-
+        
         //#region
         { x: 37.8, y: 36.8, tag: "mob_視覚", name_ja: "クレセント・クリフカイト<br>通常 LV20 視覚", name_en: "クレセント・クリフカイト<br>通常 LV20 視覚", classlist: ["lv_20",] },
         { x: 38.2, y: 36.9, tag: "mob_限定_聴覚", name_ja: "クレセント・ロトンハウンド<br>夜限定 LV20 聴覚", name_en: "クレセント・ロトンハウンド<br>夜限定 LV20 聴覚", classlist: ["lv_20", "夜",] },
